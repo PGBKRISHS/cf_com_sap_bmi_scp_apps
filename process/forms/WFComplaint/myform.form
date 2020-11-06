@@ -1,0 +1,10 @@
+{
+    "id": "myform",
+    "schemaVersion": "1.0.0",
+    "name": "myform",
+    "revision": "1.0",
+    "type": "task",
+    "readOnly": false,
+    "content": [],
+    "decisions": []
+}

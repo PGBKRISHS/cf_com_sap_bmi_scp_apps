@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/Opa5"],function(e){"use strict";var r="ApproverScreen";e.createPageObjects({onTheAppPage:{actions:{},assertions:{iShouldSeeTheApp:function(){return this.waitFor({id:"app",viewName:r,success:function(){e.assert.ok(true,"The ApproverScreen view is displayed")},errorMessage:"Did not find the ApproverScreen view"})}}}})});

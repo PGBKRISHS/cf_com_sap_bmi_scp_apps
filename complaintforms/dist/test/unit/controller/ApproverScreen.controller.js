@@ -1,0 +1,1 @@
+sap.ui.define(["com/sap/bmi/scp/apps/complaintforms/controller/ApproverScreen.controller"],function(e){"use strict";QUnit.module("ApproverScreen Controller");QUnit.test("I should test the ApproverScreen controller",function(o){var r=new e;r.onInit();o.ok(r)})});

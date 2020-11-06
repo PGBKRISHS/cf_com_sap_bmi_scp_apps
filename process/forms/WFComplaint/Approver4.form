@@ -1,0 +1,47 @@
+{
+    "id": "approver4",
+    "schemaVersion": "1.0.0",
+    "name": "Approver4",
+    "revision": "1.0",
+    "type": "task",
+    "readOnly": false,
+    "content": [
+        {
+            "id": "complaintid",
+            "type": "string",
+            "label": "ComplaintId",
+            "readOnly": true,
+            "value": "${context.ComplaintID}",
+            "constraints": {
+                "required": false
+            }
+        },
+        {
+            "id": "total_cost",
+            "type": "string",
+            "label": "Total Cost",
+            "readOnly": false,
+            "value": "${context.TotalCost}",
+            "constraints": {
+                "required": false
+            }
+        }
+    ],
+    "decisions": [
+        {
+            "id": "approve",
+            "text": "Approve",
+            "decisionType": "positive"
+        },
+        {
+            "id": "reject",
+            "text": "Reject",
+            "decisionType": "negative"
+        },
+        {
+            "id": "forward",
+            "text": "Forward",
+            "decisionType": ""
+        }
+    ]
+}

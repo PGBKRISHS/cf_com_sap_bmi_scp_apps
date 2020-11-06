@@ -1,0 +1,51 @@
+{
+    "resources": [
+        {
+            "name": "../complaintforms/view/ApproverScreen.view.xml"
+        },
+        {
+            "name": "../complaintforms/manifest.json"
+        },
+        {
+            "name": "../complaintforms/model/models.js"
+        },
+        {
+            "name": "../complaintforms/controller/ApproverScreen.controller.js"
+        },
+        {
+            "name": "../complaintforms/Component.js"
+        },
+        {
+            "name": "../complaintforms/manifest-bundle.zip"
+        },
+        {
+            "name": "../complaintforms/Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "../complaintforms/model/models-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "../complaintforms/controller/ApproverScreen-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "../complaintforms/Component-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "../../../../../../sap-ui-version.json"
+        },
+        {
+            "name": "../complaintforms/i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "../complaintforms/css/style.css"
+        },
+        {
+            "name": "../complaintforms/index.html"
+        }
+    ]
+}

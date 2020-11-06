@@ -1,0 +1,43 @@
+{
+    "_version": "3.0",
+    "identification": {
+        "id": "cross.fnd.fiori.inbox",
+        "entityType": "businessapp"
+    },
+    "payload": {
+        "visualizations": {
+            "WorkflowTask-DisplayMyInboxExpertMode": {
+                "vizType": "sap.ushell.DynamicAppLauncher",
+                "vizConfig": {
+                    "sap.app": {
+                        "title": "Expert mode with My Inbox",
+                        "description": "DisplayMyInboxExpertModeDesk",
+                        "tags": {}
+                    },
+                    "sap.ui": {
+                        "fullWidth": true
+                    },
+                    "sap.flp": {
+                        "target": {
+                            "inboundId": "WorkflowTask-DisplayMyInbox",
+                            "parameters": {
+                                "expertMode": {
+                                    "value": {
+                                        "value": "true",
+                                        "format": "plain"
+                                    }
+                                },
+                                "showAdditionalAttributes": {
+                                    "value": {
+                                        "value": "true",
+                                        "format": "plain"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

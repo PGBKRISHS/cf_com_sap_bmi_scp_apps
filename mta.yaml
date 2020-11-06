@@ -1,0 +1,132 @@
+ID: cf_com_sap_bmi_scp_apps
+_schema-version: "2.1"
+version: 0.0.1
+parameters:
+  enable-parallel-deployments: true
+  deploy_mode: html5-repo
+
+build-parameters:
+  before-all:
+    - builder: custom
+      commands:
+        - npm install --production
+        - npm run build
+
+modules:
+  - name: cf_com_sap_bmi_scp_apps_approuter
+    type: approuter.nodejs
+    path: approuter
+    build-parameters:
+      ignore: ["node_modules/"]
+    parameters:
+      disk-quota: 256M
+      memory: 256M
+    requires:
+      - name: cf_com_sap_bmi_scp_apps_html5repo
+      - name: cf_com_sap_bmi_scp_apps_portal_inst
+      - name: cf_com_sap_bmi_scp_apps_uaa
+      - name: cf_com_sap_bmi_scp_apps_wf
+      - name: cf_com_sap_bmi_scp_apps_brules_inst
+      - name: dest_cf_com_sap_bmi_scp_apps
+
+  - name: cf_com_sap_bmi_scp_apps_uiDeployer
+    type: com.sap.html5.application-content
+    path: uiDeployer
+    requires:
+      - name: cf_com_sap_bmi_scp_apps_html5repo_apphost
+    build-parameters:
+      ignore: ["node_modules/"]
+      requires:
+        - name: cf_com_sap_bmi_scp_apps_complaintforms_ui5
+          artifacts:
+            - "./*"
+          target-path: resources/cf_com_sap_bmi_scp_apps_complaintforms_ui5
+
+  - name: cf_com_sap_bmi_scp_apps_flp
+    type: com.sap.portal.content
+    path: flp
+    parameters:
+      memory: 128M
+      buildpack: nodejs_buildpack
+    build-parameters:
+      ignore: ["node_modules/"]
+    requires:
+      - name: cf_com_sap_bmi_scp_apps_html5repo
+      - name: cf_com_sap_bmi_scp_apps_portal_inst
+      - name: cf_com_sap_bmi_scp_apps_uaa
+      - name: cf_com_sap_bmi_scp_apps_wf
+      - name: cf_com_sap_bmi_scp_apps_brules_inst
+      - name: cf_com_sap_bmi_scp_apps_html5repo_apphost
+      - name: cf_com_sap_bmi_scp_apps_uiDeployer
+
+  - name: cf_com_sap_bmi_scp_apps_process_wf
+    type: com.sap.application.content
+    path: process
+    requires:
+      - name: cf_com_sap_bmi_scp_apps_wf
+        parameters:
+          content-target: true
+
+  - name: cf_com_sap_bmi_scp_apps_complaintforms_ui5
+    type: html5
+    path: complaintforms
+    build-parameters:
+      builder: custom
+      commands:
+        - npm install
+        - npm run build
+      supported-platforms: []
+      build-result: dist
+
+resources:
+  - name: cf_com_sap_bmi_scp_apps_uaa
+    type: org.cloudfoundry.managed-service
+    parameters:
+      service-plan: application
+      service: xsuaa
+      path: ./xs-security.json
+
+  - name: cf_com_sap_bmi_scp_apps_html5repo
+    parameters:
+      service-plan: app-runtime
+      service: html5-apps-repo
+    type: org.cloudfoundry.managed-service
+
+  - name: cf_com_sap_bmi_scp_apps_portal_inst
+    parameters:
+      service-plan: standard
+      service: portal
+    type: org.cloudfoundry.managed-service
+
+  - name: cf_com_sap_bmi_scp_apps_wf
+    parameters:
+      service-plan: standard
+      service: workflow
+      config-path: ./config-workflow.json
+    type: org.cloudfoundry.managed-service
+
+  - name: dest_cf_com_sap_bmi_scp_apps
+    parameters:
+      service-plan: lite
+      service: destination
+    type: org.cloudfoundry.managed-service
+
+  - name: cf_com_sap_bmi_scp_apps_brules_inst
+    parameters:
+      service-plan: basic
+      service: business-rules
+    type: org.cloudfoundry.managed-service
+
+  - name: cf_com_sap_bmi_scp_apps_html5repo_apphost
+    parameters:
+      service-plan: app-host
+      service: html5-apps-repo
+      config:
+        sizeLimit: 100
+    type: org.cloudfoundry.managed-service
+
+  - name: cf_com_sap_bmi_scp_apps_connectivity
+    parameters:
+      service-plan: lite
+      service: connectivity
+    type: org.cloudfoundry.managed-service

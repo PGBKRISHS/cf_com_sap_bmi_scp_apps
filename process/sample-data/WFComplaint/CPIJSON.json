@@ -1,0 +1,73 @@
+{"Messages": {
+        "Message3": {
+            "ServiceRequestTextCollection": {
+                "ServiceRequestText": [
+                    {
+                        "ObjectID": "00163EAA3D921EEB80E5D59EA8A3FED8",
+                        "TypeCode": "10008",
+                        "ParentObjectID": "00163EAA3D921EEB80E5D4F3C7421ED8"
+                    },
+                    {
+                        "ObjectID": "00163EAA3D921EEB80E5D59EA8B0BED8",
+                        "TypeCode": "10007",
+                        "ParentObjectID": "00163EAA3D921EEB80E5D4F3C7421ED8"
+                    }
+                ]
+            }
+        },
+        "Message2": {
+            "ServiceRequestPartyCollection": {
+                "ServiceRequestParty": {
+                    "ObjectID": "00163EAA3D921EEB80E5D4F3C7433ED8",
+                    "CountryCode": "GB",
+                    "ParentObjectID": "00163EAA3D921EEB80E5D4F3C7421ED8"
+                }
+            }
+        },
+        "Message1": {
+            "ServiceRequestCollection": {
+                "ServiceRequest": {
+                    "Z_ApprovalCounter_KUT": "1",
+                    "Z_Settlementwithreference_KUT": "true",
+                    "ZCostAllocation_KUT": "101",
+                    "ObjectID": "00163EAA3D921EEB80E5D4F3C7421ED8",
+                    "Z_CostAllocationcurrencyCode_KUT": "GBP",
+                    "Name": "Invoice Test - Approval test 5",
+                    "Z_CostSplit_New_KUT": "",
+                    "Z_OtherReferenceReason_KUT": "",
+                    "ServiceRequestUserLifeCycleStatusCode": "Z7",
+                    "RefInvoiceID_KUT": "",
+                    "Z_CostAllocationcontent_KUT": "299.000000",
+                    "ZComplaintReason_KUT": "105",
+                    "ServiceCategoryID": "Z_1",
+                    "Z_RefDeliveryID_KUT": "",
+                    "Z_ImmediateSettlement_Header_KUT": "2",
+                    "ServiceRequestItem": {
+                        "ServiceRequestItem": {
+                            "Z_SettlementAmountcurrencyCode_KUT": "GBP",
+                            "ZPlantCode_SDK": "",
+                            "Description": "POSTAL CHARGE-DIEN Article",
+                            "QuantityMeasureUnitCode": "EA",
+                            "ObjectID": "00163EAA3D921EEB80E5D4F3C7425ED8",
+                            "Z_SettlementAmountcontent_KUT": "299.000000",
+                            "UserServiceTransactionProcessingTypeCode": "ZCM1",
+                            "ProductID": "10000088",
+                            "ID": "10",
+                            "RequestedQuantity": "1.00000000000000",
+                            "ParentObjectID": "00163EAA3D921EEB80E5D4F3C7421ED8"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "ButtonText": {
+        "Result": [
+            {
+                "ButtonText": {
+                    "ButtonText": "Reject"
+                }
+            }
+        ]
+    }
+}
