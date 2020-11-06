@@ -1,7 +1,8 @@
 {
     "resources": [
         {
-            "name": "../complaintforms/view/ApproverScreen.view.xml"
+            "name": "../complaintforms/i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
         },
         {
             "name": "../complaintforms/manifest.json"
@@ -38,8 +39,7 @@
             "name": "../../../../../../sap-ui-version.json"
         },
         {
-            "name": "../complaintforms/i18n/i18n.properties",
-            "raw": "i18n/i18n.properties"
+            "name": "../complaintforms/view/ApproverScreen.view.xml"
         },
         {
             "name": "../complaintforms/css/style.css"
