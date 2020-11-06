@@ -28,7 +28,7 @@ sap.ui.define([
 				startupParameters = this.getComponentData().startupParameters;
 				taskModel = startupParameters.taskModel;
 				taskId = taskModel.getData().InstanceID;
-				var contextModel = new sap.ui.model.json.JSONModel("/combmigroupc4ccomplaintswfzui5complaintapprover1/bpmworkflowruntime/rest/v1/task-instances/" + taskId + "/context");
+				var contextModel = new sap.ui.model.json.JSONModel("/comsapbmiscpappscomplaintforms/bpmworkflowruntime/rest/v1/task-instances/" + taskId + "/context");
 				contextModel.setDefaultBindingMode(sap.ui.model.BindingMode.TwoWay);
 				this.setModel(contextModel);
 				var that = this;
@@ -372,7 +372,7 @@ sap.ui.define([
 			var sToken = this._fetchToken();
 			$.ajax({
 				//Call workflow API to complete the task
-				url: "/combmigroupc4ccomplaintswfzui5complaintapprover1/bpmworkflowruntime/rest/v1/task-instances/" + taskId,
+				url: "/comsapbmiscpappscomplaintforms/bpmworkflowruntime/rest/v1/task-instances/" + taskId,
 				method: "PATCH",
 				contentType: "application/json",
 				//pass the updated context to the API
@@ -408,7 +408,7 @@ sap.ui.define([
 		_fetchToken: function () {
 				var token;
 				$.ajax({
-					url: "/combmigroupc4ccomplaintswfzui5complaintapprover1/bpmworkflowruntime/rest/v1/xsrf-token",
+					url: "/comsapbmiscpappscomplaintforms/bpmworkflowruntime/rest/v1/xsrf-token",
 					method: "GET",
 					async: false,
 					headers: {
