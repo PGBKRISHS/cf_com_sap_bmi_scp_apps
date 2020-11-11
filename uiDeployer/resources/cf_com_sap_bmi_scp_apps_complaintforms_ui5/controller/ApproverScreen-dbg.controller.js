@@ -7,7 +7,7 @@ sap.ui.define([
 		onInit: function () {
 		},
 		onAfterRendering: function () {
-			var oComponent = this.getOwnerComponent();
+			var oComponent = this.getOwnerComponent() || this.getView().getOwnerComponent();
 			oComponent.getModel("oLocalJsonModel");
 			var PrevComment = oComponent.getModel("oLocalJsonModel").getProperty("/Comments");
 			if (!(PrevComment)) {

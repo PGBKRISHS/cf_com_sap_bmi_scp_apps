@@ -1,8 +1,7 @@
 {
     "resources": [
         {
-            "name": "../complaintforms/i18n/i18n.properties",
-            "raw": "i18n/i18n.properties"
+            "name": "../complaintforms/controller/ApproverScreen.controller.js"
         },
         {
             "name": "../complaintforms/manifest.json"
@@ -11,7 +10,8 @@
             "name": "../complaintforms/model/models.js"
         },
         {
-            "name": "../complaintforms/controller/ApproverScreen.controller.js"
+            "name": "../complaintforms/i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
         },
         {
             "name": "../complaintforms/Component.js"

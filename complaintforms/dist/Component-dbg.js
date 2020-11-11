@@ -25,10 +25,11 @@ sap.ui.define([
 			var taskModel = "";
 			var taskId = "";
 			try {
-				startupParameters = this.getComponentData().startupParameters;
+				startupParameters = this.getOwnerComponent().getComponentData().startupParameters;
 				taskModel = startupParameters.taskModel;
-				taskId = taskModel.getData().InstanceID;
-				var contextModel = new sap.ui.model.json.JSONModel("/comsapbmiscpappscomplaintforms/bpmworkflowruntime/rest/v1/task-instances/" + taskId + "/context");
+                taskId = taskModel.getData().InstanceID;
+                var url = `/comsapbmiscpappscomplaintforms/bpmworkflowruntime/v1/task-instances/${taskId}/context`;
+				var contextModel = new sap.ui.model.json.JSONModel(url);
 				contextModel.setDefaultBindingMode(sap.ui.model.BindingMode.TwoWay);
 				this.setModel(contextModel);
 				var that = this;
