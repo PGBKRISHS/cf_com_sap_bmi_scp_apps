@@ -1,11 +1,7 @@
 {
     "resources": [
         {
-            "name": "Component.js"
-        },
-        {
-            "name": "i18n/i18n.properties",
-            "raw": "i18n/i18n.properties"
+            "name": "manifest.json"
         },
         {
             "name": "model/models.js"
@@ -14,7 +10,7 @@
             "name": "controller/ApproverScreen.controller.js"
         },
         {
-            "name": "manifest.json"
+            "name": "Component.js"
         },
         {
             "name": "manifest-bundle.zip"
@@ -37,6 +33,10 @@
         },
         {
             "name": "../../../../../../sap-ui-version.json"
+        },
+        {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
         },
         {
             "name": "view/ApproverScreen.view.xml"
