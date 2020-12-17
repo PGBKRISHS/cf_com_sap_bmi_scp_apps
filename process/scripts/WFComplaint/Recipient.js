@@ -47,4 +47,4 @@ var status = {
 }
 			};
 $.context.StatusUpdate = status;
-$.context.ApprovalStepsReq = $.context.response.Result[0].ApprovalSteps.ApprovalStepsReq;
+$.context.ApprovalStepsReq = $.context.response.Result[0].ApprovalSteps.ApprovalStepsReq;	
