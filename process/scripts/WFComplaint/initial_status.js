@@ -36,15 +36,8 @@ var status = {
 	"Complaintsstatus": $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ServiceRequestUserLifeCycleStatusCode,
 	"CostAllocation": $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ZCostAllocation_KUT,
 	"CostSplit": $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_CostSplit_New_KUT,
-	"SettlementTrackingUpdate": {"ApprovalList": {"Level1": "Not applicable ", 
-												  "Level2": "Not applicable ",
-												  "Level3": "Not applicable ",
-												  "Level4": "Not applicable ",
-								"ApprovalStarted": date,
-								"LastUpdated": date,
-								"CurrentStatus": "Pending for level 1 approval"
-						}
-}
+    "SettlementTrackingUpdate": {"ApprovalList": []
+                                }
 			};
 $.context.StatusUpdate = status;
-$.context.ApprovalStepsReq = $.context.response.Result[0].ApprovalSteps.ApprovalStepsReq;
+//$.context.ApprovalStepsReq = $.context.response.Result[0].ApprovalSteps.ApprovalStepsReq;
