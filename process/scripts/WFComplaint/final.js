@@ -44,4 +44,4 @@ if (($.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Service
 	if ($.context.Arbitrated=="Approved"){$.context.StatusUpdate.Complaintsstatus = "Y3";}
 //	else{$.context.StatusUpdate.Complaintsstatus = "Y7";}
 }
-$.context.StatusUpdate.SettlementTrackingUpdate.ApprovalList.CurrentStatus = "Complete";
+$.context.StatusUpdate.SettlementTrackingUpdate.ApprovalList.CurrentStatus = "Complete";	
