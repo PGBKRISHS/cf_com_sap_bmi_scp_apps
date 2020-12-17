@@ -58,6 +58,9 @@
 				"settings": {
 					"bundleName": "com.sap.bmi.scp.apps.complaintforms.i18n.i18n"
 				}
+            },
+			"oLocalJsonModel": {
+				"type": "sap.ui.model.json.JSONModel"
 			}
 		},
 		"resources": {
