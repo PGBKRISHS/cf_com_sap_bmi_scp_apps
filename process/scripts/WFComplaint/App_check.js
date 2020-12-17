@@ -1,4 +1,4 @@
-/*
+complaint/*
 // read from existing workflow context 
 var productInfo = $.context.productInfo; 
 var productName = productInfo.productName; 
