@@ -1,16 +1,41 @@
-{"Messages": {
+{ "Messages": {    
+    
+        "Message6": {
+            "ServiceRequestServiceRequestUserLifeCycleStatusCodeCollection": {
+                "CodeList": {
+                    "Description": "Pre-Settlement Approval Requested",
+                    "Code": "Z7"
+                }
+            }
+        },
+        "Message5": {
+            "ServiceRequestZ_ImmediateSettlement_Header_KUTCollection": {
+                "CodeList": {
+                    "Description": "Yes",
+                    "Code": "1"
+                }
+            }
+        },
+        "Message4": {
+            "ServiceRequestZComplaintReason_KUTCollection": {
+                "CodeList": {
+                    "Description": "Product Quality - Post-Installation",
+                    "Code": "111"
+                }
+            }
+        },
         "Message3": {
             "ServiceRequestTextCollection": {
                 "ServiceRequestText": [
                     {
-                        "ObjectID": "00163EAA3D921EEB80E5D59EA8A3FED8",
+                        "ObjectID": "00163EAB5C1B1EEB8DC97EF609BC5D1D",
                         "TypeCode": "10008",
-                        "ParentObjectID": "00163EAA3D921EEB80E5D4F3C7421ED8"
+                        "ParentObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE"
                     },
                     {
-                        "ObjectID": "00163EAA3D921EEB80E5D59EA8B0BED8",
+                        "ObjectID": "00163EAB5C1B1EEB8DC97EF609C19D1D",
                         "TypeCode": "10007",
-                        "ParentObjectID": "00163EAA3D921EEB80E5D4F3C7421ED8"
+                        "ParentObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE"
                     }
                 ]
             }
@@ -18,9 +43,9 @@
         "Message2": {
             "ServiceRequestPartyCollection": {
                 "ServiceRequestParty": {
-                    "ObjectID": "00163EAA3D921EEB80E5D4F3C7433ED8",
+                    "ObjectID": "00163EAB5C1B1EEB8DC97D19DAC31CFE",
                     "CountryCode": "GB",
-                    "ParentObjectID": "00163EAA3D921EEB80E5D4F3C7421ED8"
+                    "ParentObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE"
                 }
             }
         },
@@ -30,36 +55,86 @@
                     "Z_ApprovalCounter_KUT": "1",
                     "Z_Settlementwithreference_KUT": "true",
                     "ZCostAllocation_KUT": "101",
-                    "ObjectID": "00163EAA3D921EEB80E5D4F3C7421ED8",
-                    "Z_CostAllocationcurrencyCode_KUT": "GBP",
-                    "Name": "Invoice Test - Approval test 5",
-                    "Z_CostSplit_New_KUT": "",
-                    "Z_OtherReferenceReason_KUT": "",
-                    "ServiceRequestUserLifeCycleStatusCode": "Z7",
-                    "RefInvoiceID_KUT": "",
-                    "Z_CostAllocationcontent_KUT": "299.000000",
-                    "ZComplaintReason_KUT": "105",
-                    "ServiceCategoryID": "Z_1",
-                    "Z_RefDeliveryID_KUT": "",
-                    "Z_ImmediateSettlement_Header_KUT": "2",
-                    "ServiceRequestItem": {
-                        "ServiceRequestItem": {
-                            "Z_SettlementAmountcurrencyCode_KUT": "GBP",
-                            "ZPlantCode_SDK": "",
-                            "Description": "POSTAL CHARGE-DIEN Article",
-                            "QuantityMeasureUnitCode": "EA",
-                            "ObjectID": "00163EAA3D921EEB80E5D4F3C7425ED8",
-                            "Z_SettlementAmountcontent_KUT": "299.000000",
-                            "UserServiceTransactionProcessingTypeCode": "ZCM1",
-                            "ProductID": "10000088",
-                            "ID": "10",
-                            "RequestedQuantity": "1.00000000000000",
-                            "ParentObjectID": "00163EAA3D921EEB80E5D4F3C7421ED8"
+                    "ServiceIssueCategoryCatalogueCategoryDescription": {
+                        "ServiceIssueCategoryCatalogueCategoryDescription": {
+                            "Description": "Product Complaint (Post-Installation)"
                         }
+                    },
+                    "ObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE",
+                    "Z_CostAllocationcurrencyCode_KUT": "GBP",
+                    "Name": "Test descriptions 0312 - 07",
+                    "Z_CostSplit_New_KUT": "",
+                    "Z_OtherReferenceReason_KUT": "123456",
+                    "ServiceRequestUserLifeCycleStatusCode": "Z7",
+                    "RefInvoiceID_KUT": "123456",
+                    "PartyID": "2001176796",
+                    "Z_CostAllocationcontent_KUT": "400.000000",
+                    "ZComplaintReason_KUT": "111",
+                    "ServiceCategoryID": "Z_8",
+                    "ID": "200000273",
+                    "Z_RefDeliveryID_KUT": "123456",
+                    "Z_ImmediateSettlement_Header_KUT": "1",
+                    "ServiceRequestItem": {
+                        "ServiceRequestItem": [
+                            {
+                                "ZPlantCode_SDK": "7K10",
+                                "Description": "RENOWN TILE BROWN",
+                                "ObjectID": "00163EAB5C1B1EEB8DC97D19DAC13CFE",
+                                "Z_SettlementAmountcontent_KUT": "100.000000",
+                                "ProductID": "10000436",
+                                "Z_SettlementAmountcurrencyCode_KUT": "GBP",
+                                "QuantityMeasureUnitCode": "Z30",
+                                "ZPlantDescription_SDK": "Vandyke",
+                                "UserServiceTransactionProcessingTypeCode": "ZCM3",
+                                "ID": "10",
+                                "currencyCode": "",
+                                "RequestedQuantity": "19.00000000000000",
+                                "ParentObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE"
+                            },
+                            {
+                                "ZPlantCode_SDK": "7K15",
+                                "Description": "S/FLEX ULTIMA W/PROOF C/GREY 15 L",
+                                "ObjectID": "00163EAB5C1B1EEB8DC97D19DAC15CFE",
+                                "Z_SettlementAmountcontent_KUT": "100.000000",
+                                "ProductID": "10000205",
+                                "Z_SettlementAmountcurrencyCode_KUT": "GBP",
+                                "QuantityMeasureUnitCode": "KGM",
+                                "ZPlantDescription_SDK": "Rassau",
+                                "UserServiceTransactionProcessingTypeCode": "ZCM2",
+                                "ID": "20",
+                                "currencyCode": "",
+                                "RequestedQuantity": "15.00000000000000",
+                                "ParentObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE"
+                            },
+                            {
+                                "ZPlantCode_SDK": "7KAC",
+                                "Description": "RENOWN TILE BROWN",
+                                "ObjectID": "00163EAB5C1B1EEB8DC97D19DAC17CFE",
+                                "Z_SettlementAmountcontent_KUT": "200.000000",
+                                "ProductID": "10000436",
+                                "Z_SettlementAmountcurrencyCode_KUT": "GBP",
+                                "QuantityMeasureUnitCode": "Z30",
+                                "ZPlantDescription_SDK": "Moorhouse",
+                                "UserServiceTransactionProcessingTypeCode": "ZCM4",
+                                "ID": "30",
+                                "currencyCode": "",
+                                "RequestedQuantity": "20.00000000000000",
+                                "ParentObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE"
+                            }
+                        ]
                     }
                 }
             }
+        },
+        "Message7": {
+            "ServiceRequestItemUserServiceTransactionProcessingTypeCodeCollection": {
+                "CodeList": {
+                    "Description": "S4 Return Order > Credit Note",
+                    "Code": "ZCM3"
+                }
+            }
         }
+    
     },
     "ButtonText": {
         "Result": [
