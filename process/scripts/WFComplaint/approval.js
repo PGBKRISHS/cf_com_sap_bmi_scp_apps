@@ -24,7 +24,7 @@ var product = {
 // write 'product' node to workflow context
 $.context.product = product;
 */
-var ApproverIf = {"RuleServiceId": "8c8352a976a34857a8ea7b68be9a4eb9",
+/*var ApproverIf = {"RuleServiceId": "8c8352a976a34857a8ea7b68be9a4eb9",
 	"Vocabulary": [{
 		"ApproverIdIf": {
 	"Country": $.context.Messages.Message2.ServiceRequestPartyCollection.ServiceRequestParty.CountryCode,
@@ -34,4 +34,25 @@ var ApproverIf = {"RuleServiceId": "8c8352a976a34857a8ea7b68be9a4eb9",
 	"ApprovalLevel": $.context.ApprovalLevel
 		}
 	}]};
-$.context.ApproverIdIf = ApproverIf;
+$.context.ApproverIdIf = ApproverIf;*/
+//var approvers = $.context.ApproverIdRes;
+/*if (approvers.length > 0) {
+	//	approvers[i]
+	var ApprovalList = [];
+	var obj = {};
+	for (var i = 0; i < approvers.length; i++) {
+		obj = {
+			"ApproverLvl": approvers[i].ApproverLvl.toLocaleString(),
+			"Approver": approvers[i].Approvers,
+			"Processor": "",
+			"Status": "To Be Approved",
+			"Comments": "",
+			"ForwardTo": null
+		};
+		ApprovalList.push(obj);
+		$.context.redetermineAgents = "";
+	}
+
+    $.context.wfStatus.ApprovalList = ApprovalList;  */
+    //$.context.ApprovalLevel1 = ApproverIdRes.Result[0].ApproverIdRes[$.context.ApprovalLevel].ApprovalLevel;
+   $.context.CurrentUser = $.context.ApproverIdRes.Result[0].ApproverIdRes[0].ApproverId;
