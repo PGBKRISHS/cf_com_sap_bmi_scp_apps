@@ -26,9 +26,12 @@ var product = {
 $.context.product = product;
 */
 //context creation for request to be sent to business rule for determining the Steps of approvals
+var date = new Date();
 if ($.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_ImmediateSettlement_Header_KUT == "")
 {$.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_ImmediateSettlement_Header_KUT =  "2";}
-$.context.CurrentStatus = " ";
+$.context.CurrentStatus = "To be approved ";
+
+ $.context.LastUpdated =  date;
 $.context.ApprovalLevel = "1";
 $.context.ApprovalLevel1 = "0";
 var ccmplaintIf = 	{"RuleServiceId": "762e153d711242ffaeccc322f0b347f8",
@@ -54,7 +57,7 @@ $.context.request = ccmplaintIf;
 		}
 	}]};
 $.context.ApproverIdIf = ApproverIf;*/
-var date = new Date();
+
 //var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
 
 /*var Delegate = {"RuleServiceId": "a58eca26dc374da0b0231b11f7039200",
@@ -76,6 +79,7 @@ var Button = {"RuleServiceId": "a0fb2653048e4ed7acf5b33efd39666c",
 	}
 	}]};
 $.context.ButtonIf = Button;
+$.context.ComplaintId = "Complaint Approval " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID;
 /*
 var status = {
 	"Approval List": {"Level 1": "Sales Mgr(Approved)", 
@@ -90,3 +94,54 @@ var status = {
 			};
 
 $.context.StatusUpdate = status;*/
+var emptyBlock;
+var foc = [];
+if ($.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ServiceRequestItem.ServiceRequestItem === undefined) {
+	emptyBlock = "X";
+} else {
+
+	if ($.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ServiceRequestItem.ServiceRequestItem.length == undefined) {
+		foc.push($.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ServiceRequestItem.ServiceRequestItem);
+	} else {
+		if ($.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ServiceRequestItem.ServiceRequestItem.length > 0) {
+			foc = $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ServiceRequestItem.ServiceRequestItem;
+		}
+	}
+}
+
+var orderInf = {
+	"foc": foc
+
+};
+
+$.context.ItemInfo = orderInf;
+
+var foc1 = [];
+var orderInf1 = {
+    "Code": "ZCM1",
+    "Description": "S4 Purchase Requisition"
+}
+foc1.push(orderInf1);
+orderInf1 = {
+    "Code": "ZCM2",
+    "Description": "S4 Return Order > FOC Order"
+}
+foc1.push(orderInf1);
+orderInf1= {
+    "Code": "ZCM3",
+    "Description": "S4 Return Order > Credit Note"
+}
+foc1.push(orderInf1);
+orderInf1= {
+    "Code": "ZCM4",
+    "Description": "S4 Credit"
+}
+foc1.push(orderInf1);
+
+for(var i=0; i<foc.length; i++){
+for(var j=0; j<foc1.length; j++){
+    if(foc[i].UserServiceTransactionProcessingTypeCode === foc1[j].Code){
+       foc[i].UserServiceTransactionProcessingTypeCode = foc1[j].Description; 
+    }
+}
+}
