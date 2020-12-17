@@ -26,11 +26,11 @@ $.context.product = product;
 */
 
 
-$.context.CurrentUser = $.context.ApproverId.Result[0].ApproverId.ApproverId;
-if($.context.DelegateId.Result.length!=0){
-if ($.context.DelegateId.Result[0].DelegateId.DelegateId !== ""){
-$.context.CurrentUser = $.context.DelegateId.Result[0].DelegateId.DelegateId;	
-}}
+//$.context.CurrentUser = $.context.ApproverId.Result[0].ApproverId.ApproverId;
+//if($.context.DelegateId.Result.length!=0){
+//if ($.context.DelegateId.Result[0].DelegateId.DelegateId !== ""){
+//$.context.CurrentUser = $.context.DelegateId.Result[0].DelegateId.DelegateId;	
+//}}
 var ButtonText = { "ButtonText": {
                     "ButtonText": "Reject"
                 }};
@@ -71,3 +71,16 @@ var status = {
 }
 			};
 $.context.StatusUpdate = status;*/
+var date = new Date();
+	var ApprovalList = [];
+	var obj = {};
+	for (var i = 0; i < $.context.ApprovalStepsReq; i++) {
+		obj = { "ApproverLevel": $.context.ApproverIdRes.Result[0].ApproverIdRes[i].ApprovalLevel.toLocaleString(),
+                "CurrentStatus": "",
+                "Approver": $.context.ApproverIdRes.Result[0].ApproverIdRes[i].ApproverId,
+       		    "LastUpdated": "",
+        	    "ApprovalStarted": date
+		};
+		ApprovalList.push(obj);
+    }
+    $.context.StatusUpdate.SettlementTrackingUpdate.ApprovalList =  ApprovalList;
