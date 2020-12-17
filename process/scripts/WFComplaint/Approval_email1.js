@@ -37,8 +37,8 @@ var newLine = "\n";
 var subject = "Request for Approval of Customer Complaint (ID:  " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID + " )";
 var dear = "Hello Mr." + $.context.UserEmailId.displayName + newLine + newLine;
 var bodyL1 = "A Customer Complaint has been submitted for your approval."+ newLine;
-var bodyL2 = "Complaint ID: " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID;
-var bodyL3 = "Complaint Subject: " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Name;
+var bodyL2 = "Complaint ID: " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID + newLine;
+var bodyL3 = "Complaint Subject: " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Name + newLine;
 
 var bodyL4 = "Please click the below link to review the details and provide your approval decision. "  + newLine;
 //var https = "https://";
