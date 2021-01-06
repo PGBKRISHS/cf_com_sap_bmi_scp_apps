@@ -13,6 +13,7 @@ var userTaskSubject = lastUserTask1.subject;
 var userTaskProcessor = lastUserTask1.processor;
 var userTaskCompletedAt = lastUserTask1.completedAt;
 
+
 var userTaskStatusMessage = " User task '" + userTaskSubject + "' has been completed by " + userTaskProcessor + " at " + userTaskCompletedAt;
 
 // create new node 'product'
@@ -24,7 +25,7 @@ var product = {
 // write 'product' node to workflow context
 $.context.product = product;
 */
-
+$.context.taskProcessor = $.usertasks.usertask1.last.recipientUsers;
 var currentUserName = $.context.CurrentUser;
 
 var UserEmailIf = {
