@@ -129,9 +129,32 @@ sap.ui.define([
 						"undefined" ? "" : this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.ServiceRequestItem.ServiceRequestItem
 						.ZPlantCode_SDK);
 					that.getModel("oLocalJsonModel").setProperty("/Comments", this.getData().Comments ===
-						"undefined" ? "" : this.getData().Comments);
+                        "undefined" ? "" : this.getData().Comments);
+                    that.getModel("oLocalJsonModel").setProperty("/CustomerBMIType", this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.
+                        Z_Case_BMIType1_KUT ===
+                        "undefined" ? "" : this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_Case_BMIType1_KUT);
+                    that.getModel("oLocalJsonModel").setProperty("/CustomerBMIType2", this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.
+                        Z_Case_BMIType2_KUT ===
+                        "undefined" ? "" : this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_Case_BMIType2_KUT);
+                    that.getModel("oLocalJsonModel").setProperty("/CreationDateTime", this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.
+                        CreationDateTime ===
+						"undefined" ? "" : this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.CreationDateTime);
+                    that.getModel("oLocalJsonModel").setProperty("/ComplaintCreatedBy", this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.
+                        Createdby.Createdby.FormattedName ===
+                        "undefined" ? "" : this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.Createdby.Createdby.FormattedName);
+                    that.getModel("oLocalJsonModel").setProperty("/HighRisk", this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.
+                        HighRisk_KUT ===
+                        "undefined" ? "" : this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.HighRisk_KUT);
+                    that.getModel("oLocalJsonModel").setProperty("/IsJustified", this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.
+                        Z_Settlementwithreference_KUT ===
+                        "undefined" ? "" : this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_Settlementwithreference_KUT);
+                    
+                    that.getModel("oLocalJsonModel").setProperty("/ContactID", this.getData().ContactID ===
+                        "undefined" ? "" : this.getData().ContactID);
+                    that.getModel("oLocalJsonModel").setProperty("/ContactName", this.getData().ContactName ===
+                        "undefined" ? "" : this.getData().ContactName);
 
-					// Implementation for Approve button action
+                        // Implementation for Approve button action
 					var sBtnTxt = "Approve";
 					var taskStatus = "ApprovedN";
 					var oPositiveAction = {
