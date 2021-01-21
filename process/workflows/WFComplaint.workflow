@@ -304,7 +304,7 @@
 		"61e31de4-8b6a-4490-8993-24d9b5867fd9": {
 			"classDefinition": "com.sap.bpm.wfs.ServiceTask",
 			"destination": "CPI_CLONING",
-			"path": "/http/SCP/C4C/Approval/QA",
+			"path": "/http/SCP/C4C/Approval",
 			"httpMethod": "POST",
 			"xsrfPath": "",
 			"requestVariable": "${context.StatusUpdate}",
@@ -321,7 +321,7 @@
 		"cfd4f805-c619-4d7a-8db9-d12fbb0a0a77": {
 			"classDefinition": "com.sap.bpm.wfs.ServiceTask",
 			"destination": "CPI_CLONING",
-			"path": "/http/SCP/C4C/Approval/QA",
+			"path": "/http/SCP/C4C/Approval",
 			"httpMethod": "POST",
 			"requestVariable": "${context.StatusUpdate}",
 			"id": "servicetask7",
@@ -348,7 +348,7 @@
 		"6c6e1fd8-3ce7-437e-ac67-2181987232d6": {
 			"classDefinition": "com.sap.bpm.wfs.ServiceTask",
 			"destination": "CPI_CLONING",
-			"path": "/http/SCP/C4C/Approval/QA",
+			"path": "/http/SCP/C4C/Approval",
 			"httpMethod": "POST",
 			"requestVariable": "${context.StatusUpdate}",
 			"id": "servicetask12",
@@ -904,7 +904,7 @@
 		},
 		"8c969697-9be9-4b7a-bb47-7f02a04c87d8": {
 			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "73,1226 73,1276 -101.75,1276 -101.75,1083.5 -288,1083.5",
+			"points": "73,1226 73,1276 -68.25,1276 -68.25,1045.5 -221,1045.5",
 			"sourceSymbol": "62129f4c-ba5c-4c35-a0a4-342bbc271e82",
 			"targetSymbol": "bbdce832-b58f-4d24-8a15-baed27b20415",
 			"object": "b7f8e5b6-c58c-4419-9985-9263484b21fd"
@@ -947,22 +947,22 @@
 		},
 		"69b72b17-8d03-4cdb-ac60-e50fe807b7a8": {
 			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "-105.5,877 -105.5,1061 -249.5,1061",
+			"points": "-105.5,877 -105.5,1023 -182.5,1023",
 			"sourceSymbol": "4a317d88-84fd-42ae-86dc-cb62d69a6cab",
 			"targetSymbol": "bbdce832-b58f-4d24-8a15-baed27b20415",
 			"object": "29a930ce-7824-4b28-94e6-4349237e9c98"
 		},
 		"bbdce832-b58f-4d24-8a15-baed27b20415": {
 			"classDefinition": "com.sap.bpm.wfs.ui.ScriptTaskSymbol",
-			"x": -350,
-			"y": 1039,
+			"x": -283,
+			"y": 1001,
 			"width": 100,
 			"height": 60,
 			"object": "b82000f2-e43b-407f-82ed-f364926167b0"
 		},
 		"a741fa62-56fc-47e0-b5f5-481f947cc85a": {
 			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "-300,1069 -300,971",
+			"points": "-233,1031 -333.5,1031 -333.5,1111 -133,1111 -133,971 -300,971",
 			"sourceSymbol": "bbdce832-b58f-4d24-8a15-baed27b20415",
 			"targetSymbol": "07eb3755-f538-42d0-aba3-98751d889088",
 			"object": "53cab001-ea8b-4ad9-a2f6-329c38b53969"
