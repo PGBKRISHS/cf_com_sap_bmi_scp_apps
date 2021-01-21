@@ -79,7 +79,7 @@ var Button = {"RuleServiceId": "a0fb2653048e4ed7acf5b33efd39666c",
 	}
 	}]};
 $.context.ButtonIf = Button;
-$.context.ComplaintId = "Complaint Approval " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID;
+$.context.ComplaintId = "Customer Complaint: " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID;
 /*
 var status = {
 	"Approval List": {"Level 1": "Sales Mgr(Approved)", 
@@ -144,4 +144,16 @@ for(var j=0; j<foc1.length; j++){
        foc[i].UserServiceTransactionProcessingTypeCode = foc1[j].Description; 
     }
 }
+}
+
+var contact = [];
+
+
+contact = $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ServiceRequestParty.ServiceRequestParty;
+for(var i=0; i<contact.length; i++){
+    if(contact[i].PartyTypeCode === "147"){
+ $.context.ContactID =  contact[i].PartyID;
+ $.context.ContactName = contact[i].FormattedName;
+    }
+
 }
