@@ -1,6 +1,10 @@
 {
     "welcomeFile": "/cp.portal",
     "authenticationMethod": "route",
+    "logout": {
+    "logoutEndpoint": "/mylogout",
+    "logoutPage": "https://www.bmigroup.com"
+  },
     "routes": [
         {
             "source": "^/bpmworkflowruntime/(.*)$",

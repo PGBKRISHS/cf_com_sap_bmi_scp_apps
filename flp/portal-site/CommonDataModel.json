@@ -80,6 +80,17 @@
 						"theme.active": ["sap_fiori_3", "sap_fiori_3_dark", "sap_belize_hcb", "sap_belize_hcw"]
 					}
 				}
+            },
+            "services": {
+				"Container": {
+					"adapter": {
+						"config": {
+							"systemProperties": {
+								"logoutUrl": "/mylogout"
+							}
+						}
+					}
+				}
 			}
 		}]
 	}
