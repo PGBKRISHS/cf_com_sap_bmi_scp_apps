@@ -15,6 +15,7 @@
 // $.context.counter =  $.context.counter + 1;
 if ($.context.UserEmailId.emailDetails.length == undefined){
     $.context.approver_result[0].ApproverName = $.context.UserEmailId.emailDetails.displayName;
+    $.context.approver_result[0].ApproverEmail = $.context.UserEmailId.emailDetails.emails;
 }
 else{
     for(var i =0; i< $.context.approver_result.length ;i++)

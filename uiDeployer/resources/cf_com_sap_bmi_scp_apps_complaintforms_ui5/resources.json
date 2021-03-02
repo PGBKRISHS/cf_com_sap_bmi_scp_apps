@@ -1,11 +1,7 @@
 {
     "resources": [
         {
-            "name": "Component.js"
-        },
-        {
-            "name": "i18n/i18n.properties",
-            "raw": "i18n/i18n.properties"
+            "name": "manifest.json"
         },
         {
             "name": "model/models.js"
@@ -17,7 +13,7 @@
             "name": "controller/ApproverScreen.controller.js"
         },
         {
-            "name": "manifest.json"
+            "name": "Component.js"
         },
         {
             "name": "manifest-bundle.zip"
@@ -27,8 +23,8 @@
             "merged": true
         },
         {
-            "name": "Component-dbg.js",
-            "isDebug": true
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
         },
         {
             "name": "model/models-dbg.js",
@@ -40,6 +36,10 @@
         },
         {
             "name": "controller/ApproverScreen-dbg.controller.js",
+            "isDebug": true
+        },
+        {
+            "name": "Component-dbg.js",
             "isDebug": true
         },
         {
