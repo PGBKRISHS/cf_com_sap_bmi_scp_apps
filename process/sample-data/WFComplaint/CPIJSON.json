@@ -1,9 +1,8 @@
-{ "Messages": {    
-    
+{ "Messages": {
         "Message6": {
             "ServiceRequestServiceRequestUserLifeCycleStatusCodeCollection": {
                 "CodeList": {
-                    "Description": "Pre-Settlement Approval Requested",
+                    "Description": "Complaint Approval Requested",
                     "Code": "Z7"
                 }
             }
@@ -11,131 +10,352 @@
         "Message5": {
             "ServiceRequestZ_ImmediateSettlement_Header_KUTCollection": {
                 "CodeList": {
-                    "Description": "Yes",
-                    "Code": "1"
+                    "Description": "No",
+                    "Code": "2"
                 }
             }
         },
         "Message4": {
             "ServiceRequestZComplaintReason_KUTCollection": {
                 "CodeList": {
-                    "Description": "Product Quality - Post-Installation",
-                    "Code": "111"
+                    "Description": "Delivery Incident",
+                    "Code": "103"
                 }
             }
         },
         "Message3": {
             "ServiceRequestTextCollection": {
-                "ServiceRequestText": [
-                    {
-                        "ObjectID": "00163EAB5C1B1EEB8DC97EF609BC5D1D",
-                        "TypeCode": "10008",
-                        "ParentObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE"
-                    },
-                    {
-                        "ObjectID": "00163EAB5C1B1EEB8DC97EF609C19D1D",
-                        "TypeCode": "10007",
-                        "ParentObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE"
-                    }
-                ]
+                "ServiceRequestText": {
+                    "ObjectID": "00163EAB6A971EEB9B9F2C2300AB260E",
+                    "TypeCode": "10008",
+                    "ParentObjectID": "00163EAB6A971EEB9B9F2BC8A2C9E60E"
+                }
             }
         },
         "Message2": {
             "ServiceRequestPartyCollection": {
                 "ServiceRequestParty": {
-                    "ObjectID": "00163EAB5C1B1EEB8DC97D19DAC31CFE",
+                    "ObjectID": "00163EAB6A971EEB9B9F2BC8A2CB060E",
                     "CountryCode": "GB",
-                    "ParentObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE"
+                    "ParentObjectID": "00163EAB6A971EEB9B9F2BC8A2C9E60E"
                 }
             }
         },
         "Message1": {
             "ServiceRequestCollection": {
                 "ServiceRequest": {
+                    "AddressSnapshotDisplayName": {
+                        "AddressSnapshotDisplayName": {
+                            "FormattedName": "Test QOC 14 Dec"
+                        }
+                    },
+                    "Createdby": {
+                        "Createdby": {
+                            "FormattedName": "Punya Sandeep Doguparthi"
+                        }
+                    },
+                    "ObjectID": "00163EAB6A971EEB9B9F2BC8A2C9E60E",
+                    "Z_CostAllocationcurrencyCode_KUT": "GBP",
+                    "Name": "SCP workflow dry run 3",
+                    "Z_Case_BMIType2_KUT": "",
+                    "Z_CostSplit_New_KUT": "",
+                    "FormattedPostalAddressDescription": "Slough SL1 1QW / GB",
+                    "ServiceRequestUserLifeCycleStatusCode": "Z7",
+                    "RefInvoiceID_KUT": "",
+                    "PartyID": "2001199984",
+                    "Z_CostAllocationcontent_KUT": "21000.000000",
+                    "ZComplaintReason_KUT": "103",
+                    "Z_RefSettlement_New_KUT": "2",
+                    "ServiceCategoryID": "Z_6",
+                    "ID": "1004",
+                    "Z_RefDeliveryID_KUT": "478875643",
+                    "Z_Case_BMIType1_KUT": "",
                     "Z_ApprovalCounter_KUT": "1",
                     "Z_Settlementwithreference_KUT": "true",
                     "ZCostAllocation_KUT": "101",
                     "ServiceIssueCategoryCatalogueCategoryDescription": {
                         "ServiceIssueCategoryCatalogueCategoryDescription": {
-                            "Description": "Product Complaint (Post-Installation)"
+                            "Description": "Delivery Complaint"
                         }
                     },
-                    "ObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE",
-                    "Z_CostAllocationcurrencyCode_KUT": "GBP",
-                    "Name": "Test descriptions 0312 - 07",
-                    "Z_CostSplit_New_KUT": "",
-                    "Z_OtherReferenceReason_KUT": "123456",
-                    "ServiceRequestUserLifeCycleStatusCode": "Z7",
-                    "RefInvoiceID_KUT": "123456",
-                    "PartyID": "2001176796",
-                    "Z_CostAllocationcontent_KUT": "400.000000",
-                    "ZComplaintReason_KUT": "111",
-                    "ServiceCategoryID": "Z_8",
-                    "ID": "200000273",
-                    "Z_RefDeliveryID_KUT": "123456",
-                    "Z_ImmediateSettlement_Header_KUT": "1",
-                    "ServiceRequestItem": {
-                        "ServiceRequestItem": [
+                    "HighRisk_KUT": "false",
+                    "Z_OtherReferenceReason_KUT": "",
+                    "CreationDateTime": "2021-02-12T06:13:09.794",
+                    "ServiceRequestParty": {
+                        "ServiceRequestParty": [
                             {
-                                "ZPlantCode_SDK": "7K10",
-                                "Description": "RENOWN TILE BROWN",
-                                "ObjectID": "00163EAB5C1B1EEB8DC97D19DAC13CFE",
-                                "Z_SettlementAmountcontent_KUT": "100.000000",
-                                "ProductID": "10000436",
-                                "Z_SettlementAmountcurrencyCode_KUT": "GBP",
-                                "QuantityMeasureUnitCode": "Z30",
-                                "ZPlantDescription_SDK": "Vandyke",
-                                "UserServiceTransactionProcessingTypeCode": "ZCM3",
-                                "ID": "10",
-                                "currencyCode": "",
-                                "RequestedQuantity": "19.00000000000000",
-                                "ParentObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE"
+                                "PartyID": "2001199984",
+                                "PartyTypeCode": "159",
+                                "FormattedName": "Test QOC 14 Dec"
                             },
                             {
-                                "ZPlantCode_SDK": "7K15",
-                                "Description": "S/FLEX ULTIMA W/PROOF C/GREY 15 L",
-                                "ObjectID": "00163EAB5C1B1EEB8DC97D19DAC15CFE",
-                                "Z_SettlementAmountcontent_KUT": "100.000000",
-                                "ProductID": "10000205",
-                                "Z_SettlementAmountcurrencyCode_KUT": "GBP",
-                                "QuantityMeasureUnitCode": "KGM",
-                                "ZPlantDescription_SDK": "Rassau",
-                                "UserServiceTransactionProcessingTypeCode": "ZCM2",
-                                "ID": "20",
-                                "currencyCode": "",
-                                "RequestedQuantity": "15.00000000000000",
-                                "ParentObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE"
-                            },
-                            {
-                                "ZPlantCode_SDK": "7KAC",
-                                "Description": "RENOWN TILE BROWN",
-                                "ObjectID": "00163EAB5C1B1EEB8DC97D19DAC17CFE",
-                                "Z_SettlementAmountcontent_KUT": "200.000000",
-                                "ProductID": "10000436",
-                                "Z_SettlementAmountcurrencyCode_KUT": "GBP",
-                                "QuantityMeasureUnitCode": "Z30",
-                                "ZPlantDescription_SDK": "Moorhouse",
-                                "UserServiceTransactionProcessingTypeCode": "ZCM4",
-                                "ID": "30",
-                                "currencyCode": "",
-                                "RequestedQuantity": "20.00000000000000",
-                                "ParentObjectID": "00163EAB5C1B1EEB8DC97D19DAC0FCFE"
+                                "PartyID": "9000001262",
+                                "PartyTypeCode": "167",
+                                "FormattedName": "Punya Sandeep Doguparthi"
                             }
                         ]
+                    },
+                    "Z_ImmediateSettlement_Header_KUT": "2",
+                    "ServiceRequestItem": {
+                        "ServiceRequestItem": {
+                            "ZPlantType_SDK": "",
+                            "Description": "Vistex Service Material 2",
+                            "ObjectID": "00163EAB6A971EEB9B9F2BC8A2CA260E",
+                            "Z_SettlementAmountcontent_KUT": "21000.000000",
+                            "ProductID": "30000101",
+                            "Z_Immediatesettlement_KUT": "false",
+                            "Z_SettlementAmountcurrencyCode_KUT": "GBP",
+                            "QuantityMeasureUnitCode": "Each",
+                            "ZPlantDescription_SDK": "",
+                            "UserServiceTransactionProcessingTypeCode": "S4 Return Order > Credit Note",
+                            "ID": "10",
+                            "currencyCode": "",
+                            "RequestedQuantity": "500.00000000000000",
+                            "ParentObjectID": "00163EAB6A971EEB9B9F2BC8A2C9E60E"
+                        }
                     }
                 }
+            }
+        },
+        "Message8": {
+            "ServiceRequestItemQuantityMeasureUnitCodeCollection": {
+                "CodeList": [
+                    {
+                        "Description": "Batch",
+                        "Code": "5B"
+                    },
+                    {
+                        "Description": "Activity",
+                        "Code": "ACT"
+                    },
+                    {
+                        "Description": "Year",
+                        "Code": "ANN"
+                    },
+                    {
+                        "Description": "Radian",
+                        "Code": "C81"
+                    },
+                    {
+                        "Description": "Cubic centimeter",
+                        "Code": "CMQ"
+                    },
+                    {
+                        "Description": "Centimeter",
+                        "Code": "CMT"
+                    },
+                    {
+                        "Description": "Day(s)",
+                        "Code": "DAY"
+                    },
+                    {
+                        "Description": "Degree [unit of angle]",
+                        "Code": "DD"
+                    },
+                    {
+                        "Description": "Cubic decimeter",
+                        "Code": "DMQ"
+                    },
+                    {
+                        "Description": "Dozen",
+                        "Code": "DZN"
+                    },
+                    {
+                        "Description": "Working day(s)",
+                        "Code": "E49"
+                    },
+                    {
+                        "Description": "Each",
+                        "Code": "EA"
+                    },
+                    {
+                        "Description": "Foot",
+                        "Code": "FOT"
+                    },
+                    {
+                        "Description": "Cubic foot",
+                        "Code": "FTQ"
+                    },
+                    {
+                        "Description": "Gallon (UK)",
+                        "Code": "GLI"
+                    },
+                    {
+                        "Description": "Gallon (US)",
+                        "Code": "GLL"
+                    },
+                    {
+                        "Description": "Gram",
+                        "Code": "GRM"
+                    },
+                    {
+                        "Description": "Hectoliter",
+                        "Code": "HLT"
+                    },
+                    {
+                        "Description": "Hour(s)",
+                        "Code": "HUR"
+                    },
+                    {
+                        "Description": "Inch",
+                        "Code": "INH"
+                    },
+                    {
+                        "Description": "Kilogram",
+                        "Code": "KGM"
+                    },
+                    {
+                        "Description": "Kilometer",
+                        "Code": "KMT"
+                    },
+                    {
+                        "Description": "Pound",
+                        "Code": "LBR"
+                    },
+                    {
+                        "Description": "Tonne (UK) or long ton (US)",
+                        "Code": "LTN"
+                    },
+                    {
+                        "Description": "Liter",
+                        "Code": "LTR"
+                    },
+                    {
+                        "Description": "Minute [unit of time]",
+                        "Code": "MIN"
+                    },
+                    {
+                        "Description": "Millimeter",
+                        "Code": "MMT"
+                    },
+                    {
+                        "Description": "Month",
+                        "Code": "MON"
+                    },
+                    {
+                        "Description": "m²",
+                        "Code": "MTK"
+                    },
+                    {
+                        "Description": "Cubic meter",
+                        "Code": "MTQ"
+                    },
+                    {
+                        "Description": "Meter",
+                        "Code": "MTR"
+                    },
+                    {
+                        "Description": "Ounce",
+                        "Code": "ONZ"
+                    },
+                    {
+                        "Description": "Fluid ounce (US)",
+                        "Code": "OZA"
+                    },
+                    {
+                        "Description": "Percent",
+                        "Code": "P1"
+                    },
+                    {
+                        "Description": "Second [unit of time]",
+                        "Code": "SEC"
+                    },
+                    {
+                        "Description": "Mile (statute mile)",
+                        "Code": "SMI"
+                    },
+                    {
+                        "Description": "Ton (US) or short ton (UK/US)",
+                        "Code": "STN"
+                    },
+                    {
+                        "Description": "Ton (metric ton)",
+                        "Code": "TNE"
+                    },
+                    {
+                        "Description": "Week",
+                        "Code": "WEE"
+                    },
+                    {
+                        "Description": "Bag",
+                        "Code": "XBG"
+                    },
+                    {
+                        "Description": "Box",
+                        "Code": "XBX"
+                    },
+                    {
+                        "Description": "Crate",
+                        "Code": "XCR"
+                    },
+                    {
+                        "Description": "Case",
+                        "Code": "XCS"
+                    },
+                    {
+                        "Description": "Carton",
+                        "Code": "XCT"
+                    },
+                    {
+                        "Description": "Package",
+                        "Code": "XPK"
+                    },
+                    {
+                        "Description": "Pallet",
+                        "Code": "XPX"
+                    },
+                    {
+                        "Description": "Roll",
+                        "Code": "XRO"
+                    },
+                    {
+                        "Description": "Set",
+                        "Code": "XSX"
+                    },
+                    {
+                        "Description": "Yard",
+                        "Code": "YRD"
+                    },
+                    {
+                        "Description": "Unit",
+                        "Code": "Z10"
+                    },
+                    {
+                        "Description": "Module",
+                        "Code": "Z20"
+                    },
+                    {
+                        "Description": "Piece",
+                        "Code": "Z30"
+                    },
+                    {
+                        "Description": "circa",
+                        "Code": "Z40"
+                    },
+                    {
+                        "Description": "KAR",
+                        "Code": "Z50"
+                    },
+                    {
+                        "Description": "ROL",
+                        "Code": "ZRL"
+                    }
+                ]
             }
         },
         "Message7": {
             "ServiceRequestItemUserServiceTransactionProcessingTypeCodeCollection": {
                 "CodeList": {
-                    "Description": "S4 Return Order > Credit Note",
+                    "Description": "C- S4 Return Order > Credit Note",
                     "Code": "ZCM3"
                 }
             }
         }
     
-    },
+        
+    
+    
+},
     "ButtonText": {
         "Result": [
             {

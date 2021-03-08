@@ -1,10 +1,17 @@
 {
     "resources": [
         {
+            "name": "Component-dbg.js",
+            "isDebug": true
+        },
+        {
             "name": "manifest.json"
         },
         {
             "name": "model/models.js"
+        },
+        {
+            "name": "model/formatter.js"
         },
         {
             "name": "controller/ApproverScreen.controller.js"
@@ -24,19 +31,19 @@
             "isDebug": true
         },
         {
+            "name": "model/formatter-dbg.js",
+            "isDebug": true
+        },
+        {
             "name": "controller/ApproverScreen-dbg.controller.js",
             "isDebug": true
         },
         {
-            "name": "Component-dbg.js",
-            "isDebug": true
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
         },
         {
             "name": "../../../../../../sap-ui-version.json"
-        },
-        {
-            "name": "i18n/i18n.properties",
-            "raw": "i18n/i18n.properties"
         },
         {
             "name": "view/ApproverScreen.view.xml"

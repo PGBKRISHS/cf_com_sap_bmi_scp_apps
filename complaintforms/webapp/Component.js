@@ -46,13 +46,18 @@ sap.ui.define([
 						this.getData().ApprovalLevel);
 					that.getModel("oLocalJsonModel").setProperty("/ApprovalList", this.getData().StatusUpdate.SettlementTrackingUpdate.ApprovalList ===
 						"undefined" ? "" :
-						this.getData().StatusUpdate.SettlementTrackingUpdate.ApprovalList);
+                        this.getData().StatusUpdate.SettlementTrackingUpdate.ApprovalList);
+                        that.getModel("oLocalJsonModel").setProperty("/approver_result", this.getData().approver_result ===
+						"undefined" ? "" :
+						this.getData().approver_result);
 					that.getModel("oLocalJsonModel").setProperty("/ComplaintDesc", this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest
 						.Name === "undefined" ? "" :
 						this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.Name);
 					that.getModel("oLocalJsonModel").setProperty("/ComplaintId", this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest
 						.ID === "undefined" ? "" :
-						this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.ID);
+                        this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.ID);
+                        that.getModel("oLocalJsonModel").setProperty("/Complainturl", this.getData().Complainturl ===
+                        "undefined" ? "" : this.getData().Complainturl);
 					that.getModel("oLocalJsonModel").setProperty("/ComplaintDesc", this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest
 						.Name === "undefined" ? "" :
 						this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.Name);
@@ -139,8 +144,7 @@ sap.ui.define([
                     that.getModel("oLocalJsonModel").setProperty("/CreationDateTime", this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.
                         CreationDateTime ===
 						"undefined" ? "" : this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.CreationDateTime);
-                    that.getModel("oLocalJsonModel").setProperty("/ComplaintCreatedBy", this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.
-                        Createdby.Createdby.FormattedName ===
+                    that.getModel("oLocalJsonModel").setProperty("/ComplaintCreatedBy", this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.Createdby.Createdby.FormattedName ===
                         "undefined" ? "" : this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.Createdby.Createdby.FormattedName);
                     that.getModel("oLocalJsonModel").setProperty("/HighRisk", this.getData().Messages.Message1.ServiceRequestCollection.ServiceRequest.
                         HighRisk_KUT ===
@@ -153,7 +157,7 @@ sap.ui.define([
                         "undefined" ? "" : this.getData().ContactID);
                     that.getModel("oLocalJsonModel").setProperty("/ContactName", this.getData().ContactName ===
                         "undefined" ? "" : this.getData().ContactName);
-
+                    
                         // Implementation for Approve button action
 					var sBtnTxt = "Approve";
 					var taskStatus = "ApprovedN";
@@ -233,11 +237,16 @@ sap.ui.define([
             
 			var formData;
 			var obj = {};
-			formData = obj;
-			var dLastUpdated = new Date();
+            formData = obj;
+
+            var dLastUpdated1 = new Date();
+            var oDateFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({pattern: "dd.MM.yyyy HH:mm"});
+            var newdate = new Date(dLastUpdated1);
+            var dLastUpdated = oDateFormat.format(newdate);
 			var ComplaintsStatus = this.getModel("oLocalJsonModel").getProperty("/ComplaintsStatus");
 			if (approvalStatus === "ApprovedN") {
-				var ApprovalList = this.getModel("oLocalJsonModel").getProperty("/ApprovalList");
+                var ApprovalList = this.getModel("oLocalJsonModel").getProperty("/ApprovalList");
+                
                 var ApproverTxt, FinalApproverVal;
                 
 //new changes
@@ -248,7 +257,7 @@ this.getModel("oLocalJsonModel").setProperty("/ApprovalList", ApprovalList);
 //end of changes
 
 
-				var CostSplit = this.byId(root + "--" + "IdInpCostSplit").getValue();
+				//var CostSplit = this.byId(root + "--" + "IdInpCostSplit").getValue();
                 //var CostAllocation1 = this.byId(root + "--" + "IdInpCostAllocation").getProperty("value");
                 var CostAllocation = this.byId(root + "--" + "IdInpCostAllocation").getProperty("selectedKey");
                 var oComplaintsStatus = this.getModel("oLocalJsonModel").getProperty("/ComplaintsStatus");
@@ -258,23 +267,22 @@ this.getModel("oLocalJsonModel").setProperty("/ApprovalList", ApprovalList);
 				var ApprovalLevel = ++ApproverLevel;
                 var CurrentStatus = "Approved";
                 var LastUpdated = dLastUpdated;
-
+                // var concatValue = "Level " + ApprovalLevel + " : " + $.context.ApproverIdRes.Result[0].ApproverIdRes[0].ApproverId + "(Approved on " + dLastUpdated + ") // Notes:" + this.getModel(
+				// 		"oLocalJsonModel").getData().ComplaintApprovalReason;
 				formData = "{ \"status\":\"COMPLETED\",\"context\": {\"approvedorreject\": \"" + approvalStatus + "\",\"Comments\" : \"" + this.getModel(
 						"oLocalJsonModel").getData().ComplaintApprovalReason + "\",\"Arbitrated\":\"" + "Approved" +
                     "\",\"ApprovalLevel\": \"" + ApprovalLevel +
                     "\",\"CurrentStatus\": \"" + CurrentStatus +
-                    "\",\"LastUpdated\": \"" + LastUpdated +
+                    // "\",\"concatValue\": \"" + concatValue +
+                    "\",\"LastUpdated\": \"" + dLastUpdated +
                     "\",\"ApprovalLevel1\": \"" + index +
                     "\",\"StatusUpdate\":{\"Complaintsstatus\":\"" + oComplaintsStatus +
-					"\",\"CostAllocation\":\"" + CostAllocation +
-					"\",\"CostSplit\":\"" + CostSplit +
-					"\"},\"Messages\":{\"Message1\":{\"ServiceRequestCollection\":{\"ServiceRequest\":{\"Z_CostSplit_New_KUT\":\"" +
-					CostSplit + "\",\"ZCostAllocation_KUT\":\"" + CostAllocation + "\"}}}} }}";
-
+					"\",\"CostAllocation\":\"" + CostAllocation + "\"},\"Messages\":{\"Message1\":{\"ServiceRequestCollection\":{\"ServiceRequest\":{\"ZCostAllocation_KUT\":\"" + CostAllocation + "\"}}}} }}";
+                     
 			} else if (approvalStatus === "Arbitrate") {
                 var index = ApproverLevel - 1;
 				if (ApproverLevel === "1") {
-					this.byId(root + "--" + "IdInpCostSplit").setEditable(true);
+					//this.byId(root + "--" + "IdInpCostSplit").setEditable(true);
 					this.byId(root + "--" + "IdInpCostAllocation").setEditable(true);
 					this.byId(root + "--" + "IdInpComments").setEditable(true);
 					setBusy.close();
@@ -293,7 +301,10 @@ this.getModel("oLocalJsonModel").setProperty("/ApprovalList", ApprovalList);
 
 ApprovalList[index].CurrentStatus = "Arbitrate";
 ApprovalList[index].LastUpdated = dLastUpdated;
-dLastUpdated = new Date();
+            var dLastUpdated1 = new Date();
+            var oDateFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({pattern: "dd.MM.yyyy HH:mm"});
+            var newdate = new Date(dLastUpdated1);
+            dLastUpdated = oDateFormat.format(newdate);
 
 
 CurrentStatus = "Arbitrate";
@@ -327,7 +338,12 @@ ApprovalList[index].CurrentStatus = "Rejected";
 ApprovalList[index].LastUpdated = dLastUpdated;
 this.getModel("oLocalJsonModel").setProperty("/ApprovalList", ApprovalList);
 CurrentStatus = "Rejected";
-dLastUpdated = new Date();
+            dLastUpdated1 = new Date();
+            var oDateFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({pattern: "dd/MM/yyyy HH:mm"});
+            var newdate = new Date(dLastUpdated1);
+            var dLastUpdated = oDateFormat.format(newdate);
+// concatValue = "Level " + ApprovalLevel + " : " + $.context.ApproverIdRes.Result[0].ApproverIdRes[0].ApproverId + "(Approved on " + dLastUpdated + ") // Notes:" + this.getModel(
+// 						"oLocalJsonModel").getData().ComplaintApprovalReason;
 //end of changes
                 
 				formData = "{ \"status\":\"COMPLETED\",\"context\": {\"approvedorreject\": \"" + approvalStatus +
@@ -357,7 +373,7 @@ dLastUpdated = new Date();
 				success: refreshTask
 			});
 			this.byId(root + "--" + "IdInpComments").setEditable(false);
-			this.byId(root + "--" + "IdInpCostSplit").setEditable(false);
+			//this.byId(root + "--" + "IdInpCostSplit").setEditable(false);
 			this.byId(root + "--" + "IdInpCostAllocation").setEditable(false);
 			setBusy.close();
 		},

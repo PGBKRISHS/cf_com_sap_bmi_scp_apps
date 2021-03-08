@@ -32,7 +32,7 @@ var dear = "Dear " + $.context.UserEmailId1.displayName + newLine + newLine;
 var bodyL1 = ", Comaplaint " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Name +
 	newLine;
 var bodyL2 =  "pending for approval as the approver has crossed SLA time. Please take action on the same" + newLine;
-var inboxRef =  "https://bmi-group-cf-development-cf-com-sap-bmi-scp-apps-approuter.cfapps.eu10.hana.ondemand.com/cp.portal/site#bpmworkflowmonitor-DisplayInstances"
+var inboxRef =  "https://bmi-group-cf-uat-uat-cf-com-sap-bmi-scp-apps-approuter.cfapps.eu10.hana.ondemand.com/cp.portal/site#bpmworkflowmonitor-DisplayInstances"
 var regards = newLine + newLine + "Regards,\nAdministrator";
 var mailBody = dear + bodyL1 + bodyL2 +  inboxRef + regards;
 var emailContext1 = {
