@@ -13,7 +13,8 @@ var URLHelper = mobileLibrary.URLHelper;
 		onAfterRendering: function () {
 			var oComponent = this.getOwnerComponent();
 			oComponent.getModel("oLocalJsonModel");
-			var PrevComment = oComponent.getModel("oLocalJsonModel").getProperty("/Comments");
+            var PrevComment = oComponent.getModel("oLocalJsonModel").getProperty("/Comments");
+            // this.getView().byId("FC7").addStyleClass("sapUShellApplicationContainerLimitedWidth");
 			if (!(PrevComment)) {
 				this.getView().byId("IdLblPrevComments").setVisible(false);
 				this.getView().byId("IdTxtPrevComments").setVisible(false);

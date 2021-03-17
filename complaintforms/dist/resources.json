@@ -1,6 +1,10 @@
 {
     "resources": [
         {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
             "name": "manifest.json"
         },
         {
@@ -21,10 +25,6 @@
         {
             "name": "Component-preload.js",
             "merged": true
-        },
-        {
-            "name": "i18n/i18n.properties",
-            "raw": "i18n/i18n.properties"
         },
         {
             "name": "model/models-dbg.js",
