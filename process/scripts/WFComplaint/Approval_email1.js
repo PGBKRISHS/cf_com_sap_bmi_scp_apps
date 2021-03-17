@@ -13,9 +13,10 @@ var bodyL3 = "Complaint Subject: " + $.context.Messages.Message1.ServiceRequestC
 var bodyL4 = "Please click the below link to review the details and provide your approval decision. "  + newLine;
 //var https = "https://";
 var inboxRef =
-	"https://bmi-group-cf-development-cf-com-sap-bmi-scp-apps-approuter.cfapps.eu10.hana.ondemand.com/cp.portal/site#WorkflowTask-DisplayMyInbox?sap-ui-app-id-hint=cross.fnd.fiori.inbox&substitution=true&userSearch=false&/detail/NA/" +	taskDefinitionId + "/TaskCollection(SAP__Origin='NA'%2CInstanceID='" + taskDefinitionId + "'%29 ";
+	"https://bmicfprd-prd-cf-com-sap-bmi-scp-apps-approuter.cfapps.eu10.hana.ondemand.com/cp.portal/site#WorkflowTask-DisplayMyInbox?sap-ui-app-id-hint=cross.fnd.fiori.inbox&substitution=true&userSearch=false&/detail/NA/" +	taskDefinitionId + "/TaskCollection(SAP__Origin='NA'%2CInstanceID='" + taskDefinitionId + "'%29 ";
 
 var complaint = newLine + newLine + "Complaint Link"
+
 
 var inboxRef1 = newLine + newLine + $.context.Complainturl;
 

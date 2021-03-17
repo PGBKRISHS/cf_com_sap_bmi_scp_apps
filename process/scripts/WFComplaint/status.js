@@ -11,13 +11,15 @@ $.context.ButtonText.Result.push(ButtonText);
 var date = new Date();
 	var ApprovalList = [];
     var obj = {};
-   
+ var dateString = $.context.LastUpdated.substring(0,10);
+ var timeString = $.context.LastUpdated.substring(11,16);  
+ var formatDate = dateString.substring(8,10) + "." + dateString.substring(5,7) + "." + dateString.substring(0,4);
 	for (var i = 0; i < $.context.ApprovalStepsReq; i++) {
         if(i==0)
         {
             	obj = { 
             "Level":  $.context.approver_result[i].ApprovalLevel.toLocaleString() + ":" + $.context.approver_result[i].ApproverName 
-            + " (Awaiting Approval since " + $.context.LastUpdated + ") //Notes:",
+            + " (Awaiting Approval since " + formatDate + " " + timeString + ") //Notes:",
               
 		};
         }
@@ -29,12 +31,7 @@ var date = new Date();
         };
         }
 		ApprovalList.push(obj);
-    }
-   
-        
-	
-	
-    
+    }    
     $.context.StatusUpdate.SettlementTrackingUpdate.ApprovalList =  ApprovalList;
     
 	

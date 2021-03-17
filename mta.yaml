@@ -28,6 +28,7 @@ modules:
       - name: cf_com_sap_bmi_scp_apps_wf
       - name: cf_com_sap_bmi_scp_apps_brules_inst
       - name: dest_cf_com_sap_bmi_scp_apps
+      - name: bmi-theming
 
   - name: cf_com_sap_bmi_scp_apps_uiDeployer
     type: com.sap.html5.application-content
@@ -129,4 +130,10 @@ resources:
     parameters:
       service-plan: lite
       service: connectivity
+    type: org.cloudfoundry.managed-service
+ 
+  - name: bmi-theming 
+    parameters: 
+      service: theming 
+      service-plan: standard 
     type: org.cloudfoundry.managed-service

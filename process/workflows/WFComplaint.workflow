@@ -353,7 +353,7 @@
 		"61e31de4-8b6a-4490-8993-24d9b5867fd9": {
 			"classDefinition": "com.sap.bpm.wfs.ServiceTask",
 			"destination": "CPI_CLONING",
-			"path": "/http/SCP/C4C/Approval/QA",
+			"path": "/http/SCP/C4C/Approval/Prod",
 			"httpMethod": "POST",
 			"xsrfPath": "",
 			"requestVariable": "${context.StatusUpdate}",
@@ -370,7 +370,7 @@
 		"cfd4f805-c619-4d7a-8db9-d12fbb0a0a77": {
 			"classDefinition": "com.sap.bpm.wfs.ServiceTask",
 			"destination": "CPI_CLONING",
-			"path": "/http/SCP/C4C/Approval/QA",
+			"path": "/http/SCP/C4C/Approval/Prod",
 			"httpMethod": "POST",
 			"requestVariable": "${context.StatusUpdate}",
 			"id": "servicetask7",
@@ -391,7 +391,7 @@
 		"6c6e1fd8-3ce7-437e-ac67-2181987232d6": {
 			"classDefinition": "com.sap.bpm.wfs.ServiceTask",
 			"destination": "CPI_CLONING",
-			"path": "/http/SCP/C4C/Approval/QA",
+			"path": "/http/SCP/C4C/Approval/Prod",
 			"httpMethod": "POST",
 			"requestVariable": "${context.StatusUpdate}",
 			"id": "servicetask12",

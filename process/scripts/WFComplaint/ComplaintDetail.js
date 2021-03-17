@@ -28,7 +28,7 @@ var Button = {"RuleServiceId": "a0fb2653048e4ed7acf5b33efd39666c",
 	}]};
 $.context.ButtonIf = Button;
 $.context.ComplaintId = "Customer Complaint: " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID;
-$.context.Complainturl = "https://my352303.crm.ondemand.com/sap/public/byd/runtime?bo_ns=http://sap.com/thingTypes&bo=COD_GENERIC&node=Root&operation=OnExtInspect&param.InternalID=" + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID + "&param.Type=COD_SRQ_AGENT_TT&sapbyd-agent=TAB"
+$.context.Complainturl = "https://my349294.crm.ondemand.com/sap/public/byd/runtime?bo_ns=http://sap.com/thingTypes&bo=COD_GENERIC&node=Root&operation=OnExtInspect&param.InternalID=" + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID + "&param.Type=COD_SRQ_AGENT_TT&sapbyd-agent=TAB"
 
 var emptyBlock;
 var foc = [];
