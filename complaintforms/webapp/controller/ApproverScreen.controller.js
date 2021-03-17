@@ -34,6 +34,7 @@ var URLHelper = mobileLibrary.URLHelper;
 				this.getView().byId("IdInpCostAllocation").setEditable(false);
 			}
         },
+        
         // 	_getVal: function(evt) {
 		// 	return evt.getSource().getValue("https://my353210.crm.ondemand.com/sap/ap/ui/clogin?bo_ns=http://sap.com/thingTypes&bo=COD_GENERIC&node=Root&operation=OnExtInspect&param.InternalID=1389&param.Type=COD_SRQ_AGENT_TT&sapbyd-agent=TAB&saml2=disabled&OBNRedirect=X");
 		// },
