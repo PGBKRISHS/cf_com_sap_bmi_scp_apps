@@ -483,7 +483,7 @@
 		"1ceb73f4-3708-422b-bd2c-c4f41af2217e": {
 			"classDefinition": "com.sap.bpm.wfs.ServiceTask",
 			"destination": "CPI_CLONING",
-			"path": "/http/SCP/IAS/UserDetails",
+			"path": "/http/SCP/IAS/UserDetails/Prod",
 			"httpMethod": "POST",
 			"requestVariable": "${context.UserEmailIdIf1}",
 			"responseVariable": "${context.UserEmailId1}",
@@ -493,7 +493,7 @@
 		"13055a62-1bad-41e4-b7de-aea0e0d6ea63": {
 			"classDefinition": "com.sap.bpm.wfs.ServiceTask",
 			"destination": "CPI_CLONING",
-			"path": "/http/SCP/IAS/UserDetails",
+			"path": "/http/SCP/IAS/UserDetails/Prod",
 			"httpMethod": "POST",
 			"requestVariable": "${context.UserEmailIdIf}",
 			"responseVariable": "${context.UserEmailId}",
@@ -515,7 +515,7 @@
 		"820702de-0c9b-4c3a-8c52-7c5721fce956": {
 			"classDefinition": "com.sap.bpm.wfs.ServiceTask",
 			"destination": "CPI_CLONING",
-			"path": "/http/SCP/IAS/UserDetails",
+			"path": "/http/SCP/IAS/UserDetails/Prod",
 			"httpMethod": "POST",
 			"requestVariable": "${context.UserEmailIdIf2}",
 			"responseVariable": "${context.UserEmailId2}",

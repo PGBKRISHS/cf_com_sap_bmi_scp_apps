@@ -4,6 +4,10 @@
             "name": "manifest.json"
         },
         {
+            "name": "i18n/i18n.properties",
+            "raw": "i18n/i18n.properties"
+        },
+        {
             "name": "model/models.js"
         },
         {
@@ -23,19 +27,15 @@
             "merged": true
         },
         {
-            "name": "model/formatter-dbg.js",
+            "name": "controller/ApproverScreen-dbg.controller.js",
             "isDebug": true
-        },
-        {
-            "name": "i18n/i18n.properties",
-            "raw": "i18n/i18n.properties"
         },
         {
             "name": "model/models-dbg.js",
             "isDebug": true
         },
         {
-            "name": "controller/ApproverScreen-dbg.controller.js",
+            "name": "model/formatter-dbg.js",
             "isDebug": true
         },
         {

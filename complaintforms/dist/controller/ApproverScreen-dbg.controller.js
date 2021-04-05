@@ -40,7 +40,7 @@ var URLHelper = mobileLibrary.URLHelper;
         onPress: function()
         {
             // URLHelper.redirect(this._getVal(evt), true);
-            var sURL = "https://my353210.crm.ondemand.com/sap/ap/ui/clogin?bo_ns=http://sap.com/thingTypes&bo=COD_GENERIC&node=Root&operation=OnExtInspect&param.InternalID=" + this.getOwnerComponent().getModel("oLocalJsonModel").getProperty("/ComplaintId") + "&param.Type=COD_SRQ_AGENT_TT&sapbyd-agent=TAB&saml2=disabled&OBNRedirect=X";
+            var sURL = "https://my349294-sso.crm.ondemand.com/sap/ap/ui/clogin?bo_ns=http://sap.com/thingTypes&bo=COD_GENERIC&node=Root&operation=OnExtInspect&param.InternalID=" + this.getOwnerComponent().getModel("oLocalJsonModel").getProperty("/ComplaintId") + "&param.Type=COD_SRQ_AGENT_TT&sapbyd-agent=TAB&saml2=disabled&OBNRedirect=X";
             window.open(sURL,"_blank");
         }
 	});
