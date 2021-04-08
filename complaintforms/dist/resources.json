@@ -27,15 +27,15 @@
             "merged": true
         },
         {
-            "name": "controller/ApproverScreen-dbg.controller.js",
-            "isDebug": true
-        },
-        {
             "name": "model/models-dbg.js",
             "isDebug": true
         },
         {
             "name": "model/formatter-dbg.js",
+            "isDebug": true
+        },
+        {
+            "name": "controller/ApproverScreen-dbg.controller.js",
             "isDebug": true
         },
         {

@@ -29,6 +29,7 @@ if ($.context.ApproverIdRes.Result[0].ApproverIdRes.length > 0) {
     approvers = $.context.ApproverIdRes.Result[0].ApproverIdRes;
     for (var p = 0; p < approvers.length; p++) {
         users = approvers[p].ApproverId.replace(" , ",",");
+        users = users.replaceAll(" ","");
         if (users != null) {
             if (usersList == null) {
                 usersList = users;

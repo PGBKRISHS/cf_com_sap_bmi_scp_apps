@@ -423,7 +423,7 @@
 		"2d868259-92f6-4735-b459-c323440d906f": {
 			"classDefinition": "com.sap.bpm.wfs.ServiceTask",
 			"destination": "CPI_CLONING",
-			"path": "/http/Email/Notification/CPI",
+			"path": "/http/Email/Notification/CPI/Prod",
 			"httpMethod": "POST",
 			"requestVariable": "${context.Mail1}",
 			"id": "servicetask14",
@@ -432,7 +432,7 @@
 		"54e83ab6-aa06-486b-b3c2-6f6a57294dd1": {
 			"classDefinition": "com.sap.bpm.wfs.ServiceTask",
 			"destination": "CPI_CLONING",
-			"path": "/http/Email/Notification/CPI",
+			"path": "/http/Email/Notification/CPI/Prod",
 			"httpMethod": "POST",
 			"requestVariable": "${context.Mail}",
 			"id": "servicetask15",
