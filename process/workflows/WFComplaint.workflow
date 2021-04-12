@@ -3,7 +3,8 @@
 		"4e4d0202-b7f1-4428-b4e5-dbac152fec25": {
 			"classDefinition": "com.sap.bpm.wfs.Model",
 			"id": "WFComplaint",
-			"subject": "WFComplaint",
+			"subject": "Customer Complaint - ${context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID}",
+			"businessKey": "${context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID}",
 			"customAttributes": [{
 				"id": "ComplaintId",
 				"label": "Complain tId",
@@ -271,7 +272,11 @@
 		"dfea7543-f13c-48ff-b635-388953911302": {
 			"classDefinition": "com.sap.bpm.wfs.EndEvent",
 			"id": "endevent1",
-			"name": "EndEvent1"
+			"name": "EndEvent1",
+			"documentation": "All levels approved, workflow completed.",
+			"eventDefinitions": {
+				"e00087c7-c417-46c2-b27c-5a000617fd0f": {}
+			}
 		},
 		"909b24a6-6241-4624-ace4-b8d868f42afb": {
 			"classDefinition": "com.sap.bpm.wfs.BoundaryEvent",
@@ -658,7 +663,7 @@
 		},
 		"0f3ad763-086e-433b-9b0d-320473dca5c9": {
 			"classDefinition": "com.sap.bpm.wfs.SequenceFlow",
-			"condition": "${context.StatusUpdate.SettlementTrackingUpdate.ApprovalList.CurrentStatus=='Complete'}",
+			"condition": "${context.StatusUpdate.SettlementTrackingUpdate.CurrentStatus=='Completed'}",
 			"id": "sequenceflow123",
 			"name": "complete",
 			"sourceRef": "4ebda8ab-ac27-4a89-80b5-a549e738f810",
@@ -1381,6 +1386,7 @@
 		},
 		"e427f93f-19ec-48b6-b848-c19b18243101": {
 			"classDefinition": "com.sap.bpm.wfs.LastIDs",
+			"terminateeventdefinition": 1,
 			"timereventdefinition": 8,
 			"maildefinition": 3,
 			"hubapireference": 9,
@@ -1421,6 +1427,10 @@
 			"api": "SAP_CF_BusinessRules_Runtime_V2",
 			"apiName": "Rule Execution API for Cloud Foundry",
 			"id": "hubapireference9"
+		},
+		"e00087c7-c417-46c2-b27c-5a000617fd0f": {
+			"classDefinition": "com.sap.bpm.wfs.TerminateEventDefinition",
+			"id": "terminateeventdefinition1"
 		}
 	}
 }
