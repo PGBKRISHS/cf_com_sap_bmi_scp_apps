@@ -27,6 +27,7 @@ var status = {
     "CostAllocation": $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ZCostAllocation_KUT,
     "CostSplit": $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_CostSplit_New_KUT,
     "SettlementTrackingUpdate": {"ApprovalList": [],
+                                "CurrentStatus": "Running",
                                 "ApprovalStartDate": "Yet to Start",
 	                            "LastUpdate": "Yet to Start"
                                 }

@@ -1,7 +1,7 @@
 {
     "resources": [
         {
-            "name": "Component-dbg.js",
+            "name": "controller/ApproverScreen-dbg.controller.js",
             "isDebug": true
         },
         {
@@ -35,12 +35,12 @@
             "isDebug": true
         },
         {
-            "name": "controller/ApproverScreen-dbg.controller.js",
-            "isDebug": true
-        },
-        {
             "name": "i18n/i18n.properties",
             "raw": "i18n/i18n.properties"
+        },
+        {
+            "name": "Component-dbg.js",
+            "isDebug": true
         },
         {
             "name": "../../../../../../sap-ui-version.json"

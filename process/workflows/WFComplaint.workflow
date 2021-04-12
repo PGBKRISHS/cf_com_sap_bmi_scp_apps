@@ -3,10 +3,11 @@
 		"4e4d0202-b7f1-4428-b4e5-dbac152fec25": {
 			"classDefinition": "com.sap.bpm.wfs.Model",
 			"id": "WFComplaint",
-			"subject": "WFComplaint",
+			"subject": "Customer Complaint - ${context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID}",
+			"businessKey": "${context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID}",
 			"customAttributes": [{
 				"id": "ComplaintId",
-				"label": "Complain tId",
+				"label": "Complaint Id",
 				"type": "string",
 				"value": "${context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID}"
 			}, {
@@ -271,7 +272,11 @@
 		"dfea7543-f13c-48ff-b635-388953911302": {
 			"classDefinition": "com.sap.bpm.wfs.EndEvent",
 			"id": "endevent1",
-			"name": "EndEvent1"
+			"name": "EndEvent1",
+			"documentation": "All levels approved, workflow completed.",
+			"eventDefinitions": {
+				"78d2da88-a7f4-4f13-8d47-f6c0d0c3df49": {}
+			}
 		},
 		"909b24a6-6241-4624-ace4-b8d868f42afb": {
 			"classDefinition": "com.sap.bpm.wfs.BoundaryEvent",
@@ -658,7 +663,7 @@
 		},
 		"0f3ad763-086e-433b-9b0d-320473dca5c9": {
 			"classDefinition": "com.sap.bpm.wfs.SequenceFlow",
-			"condition": "${context.StatusUpdate.SettlementTrackingUpdate.ApprovalList.CurrentStatus=='Complete'}",
+			"condition": "${context.StatusUpdate.SettlementTrackingUpdate.CurrentStatus=='Completed'}",
 			"id": "sequenceflow123",
 			"name": "complete",
 			"sourceRef": "4ebda8ab-ac27-4a89-80b5-a549e738f810",
@@ -852,6 +857,10 @@
 			"classDefinition": "com.sap.bpm.wfs.SampleContext",
 			"reference": "/sample-data/WFComplaint/CPIJSON.json",
 			"id": "default-start-context"
+		},
+		"78d2da88-a7f4-4f13-8d47-f6c0d0c3df49": {
+			"classDefinition": "com.sap.bpm.wfs.TerminateEventDefinition",
+			"id": "terminateeventdefinition1"
 		},
 		"37226669-d699-42c1-8f1a-0ca07b2a2064": {
 			"classDefinition": "com.sap.bpm.wfs.TimerEventDefinition",
@@ -1175,7 +1184,7 @@
 		},
 		"446ff5c6-0681-47d9-9ebe-8772e8745282": {
 			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "464.99999821186066,633.9999964237213 464.99999821186066,803.9999958276749 310.99999940395355,803.9999958276749 310.99999940395355,892.9999952316284",
+			"points": "464.99999821186066,633.9999964237213 464.99999821186066,856 310.99999940395355,856 310.99999940395355,892.9999952316284",
 			"sourceSymbol": "f9191cd0-6889-4080-a3fc-d6e6924ffb9a",
 			"targetSymbol": "5186563f-d010-4c6d-9bff-01cca92feaa2",
 			"object": "e9880043-079a-4824-b0bc-c565cc62ebe8"
@@ -1381,6 +1390,7 @@
 		},
 		"e427f93f-19ec-48b6-b848-c19b18243101": {
 			"classDefinition": "com.sap.bpm.wfs.LastIDs",
+			"terminateeventdefinition": 1,
 			"timereventdefinition": 8,
 			"maildefinition": 3,
 			"hubapireference": 9,

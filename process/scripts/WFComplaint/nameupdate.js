@@ -22,6 +22,7 @@ else{
 {
    
     var users = $.context.approver_result[i].ApproverId.replace(" , ",",");
+    users = users.replaceAll(" ","");
     var approverIdTab = users.split(",");
     
     for(var k =0; k< approverIdTab.length ; k++)
