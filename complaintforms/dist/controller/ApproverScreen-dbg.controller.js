@@ -14,7 +14,7 @@ var URLHelper = mobileLibrary.URLHelper;
 			var oComponent = this.getOwnerComponent();
 			oComponent.getModel("oLocalJsonModel");
             var PrevComment = oComponent.getModel("oLocalJsonModel").getProperty("/Comments");
-            // this.getView().byId("FC7").addStyleClass("sapUShellApplicationContainerLimitedWidth");
+            this.getView().byId("ObjectPageLayout").addStyleClass("marginclass");
 			if (!(PrevComment)) {
 				this.getView().byId("IdLblPrevComments").setVisible(false);
 				this.getView().byId("IdTxtPrevComments").setVisible(false);
@@ -35,6 +35,7 @@ var URLHelper = mobileLibrary.URLHelper;
 				this.getView().byId("IdInpCostAllocation").setEditable(false);
 			}
         },
+        
         // 	_getVal: function(evt) {
 		// 	return evt.getSource().getValue("https://my353210.crm.ondemand.com/sap/ap/ui/clogin?bo_ns=http://sap.com/thingTypes&bo=COD_GENERIC&node=Root&operation=OnExtInspect&param.InternalID=1389&param.Type=COD_SRQ_AGENT_TT&sapbyd-agent=TAB&saml2=disabled&OBNRedirect=X");
 		// },

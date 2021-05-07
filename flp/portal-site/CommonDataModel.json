@@ -66,7 +66,14 @@
 									"config": {
 										"applications": {
 											"Shell-home": {}
-										}
+										},
+										"enableSearch": true,
+										"enablePersonalization": true,
+										"enableSetTheme": true,
+										"enableSetLanguage": true,
+										"enableAutomaticSignout": true,
+										"sessionTimeoutIntervalInMinutes": 15,
+										"sessionTimeoutReminderInMinutes": 3
 									}
 								}
 							}
@@ -80,8 +87,8 @@
 						"theme.active": ["sap_fiori_3", "sap_fiori_3_dark", "sap_belize_hcb", "sap_belize_hcw"]
 					}
 				}
-            },
-            "services": {
+			},
+			"services": {
 				"Container": {
 					"adapter": {
 						"config": {

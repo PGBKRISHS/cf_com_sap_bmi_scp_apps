@@ -3,10 +3,51 @@
 		"4e4d0202-b7f1-4428-b4e5-dbac152fec25": {
 			"classDefinition": "com.sap.bpm.wfs.Model",
 			"id": "WFComplaint",
-			"subject": "WFComplaint",
+			"subject": "Customer Complaint - ${context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID}",
+			"businessKey": "${context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID}",
 			"customAttributes": [{
+				"id": "WFInstanceID",
+				"label": "Workflow Instance ID",
+				"type": "string",
+				"value": "${context.WFInstanceID}"
+			}, {
+				"id": "Approverlevel5",
+				"label": "Level 5 Approver(s)",
+				"type": "string",
+				"value": "${context.Approverlevel5}"
+			}, {
+				"id": "Approverlevel4",
+				"label": "Level 4 Approver(s)",
+				"type": "string",
+				"value": "${context.Approverlevel4}"
+			}, {
+				"id": "Approverlevel3",
+				"label": "Level 3 Approver(s)",
+				"type": "string",
+				"value": "${context.Approverlevel3}"
+			}, {
+				"id": "Approverlevel2",
+				"label": "Level 2 Approver(s)",
+				"type": "string",
+				"value": "${context.Approverlevel2}"
+			}, {
+				"id": "Approverlevel1",
+				"label": "Level 1 Approver(s)",
+				"type": "string",
+				"value": "${context.Approverlevel1}"
+			}, {
+				"id": "ApprovalStepsReq",
+				"label": "Total Approval Levels",
+				"type": "string",
+				"value": "${context.ApprovalStepsReq}"
+			}, {
+				"id": "LastApprovalOutcome",
+				"label": "Last Approval Outcome",
+				"type": "string",
+				"value": "${context.CurrentStatus}"
+			}, {
 				"id": "ComplaintId",
-				"label": "Complain tId",
+				"label": "Complaint Id",
 				"type": "string",
 				"value": "${context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID}"
 			}, {
@@ -28,39 +69,39 @@
 				"id": "ComplaintStatus",
 				"label": "Complaint Status",
 				"type": "string",
-				"value": "${context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ServiceRequestUserLifeCycleStatusCode}"
+				"value": "${context.Messages.Message6.ServiceRequestServiceRequestUserLifeCycleStatusCodeCollection.CodeList.Description}"
 			}, {
 				"id": "ImmediateSettlement",
 				"label": "Immediate Settlement",
 				"type": "string",
-				"value": "${context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_ImmediateSettlement_Header_KUT}"
+				"value": "${context.Messages.Message5.ServiceRequestZ_ImmediateSettlement_Header_KUTCollection.CodeList.Description}"
 			}, {
 				"id": "ComplaintCategory",
 				"label": "Complaint Category",
 				"type": "string",
-				"value": "${context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ServiceRequestUserLifeCycleStatusCode}"
+				"value": "${context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ServiceIssueCategoryCatalogueCategoryDescription.ServiceIssueCategoryCatalogueCategoryDescription.Description}"
 			}],
 			"name": "WFComplaint",
 			"documentation": "Complaints workflow",
 			"lastIds": "e427f93f-19ec-48b6-b848-c19b18243101",
 			"events": {
 				"a048f43e-2701-4c64-a605-0698ccd58d1f": {
-					"name": "StartEvent1"
+					"name": "Complaint Approval Process Started"
 				},
 				"dfea7543-f13c-48ff-b635-388953911302": {
-					"name": "EndEvent1"
+					"name": "All Approvals"
 				},
 				"909b24a6-6241-4624-ace4-b8d868f42afb": {
 					"name": "escalation time reached"
 				},
 				"35302442-9de9-4305-bbbb-02251c8f3c95": {
-					"name": "EndEvent2"
+					"name": "Waiting For Approval"
 				},
 				"a44c7fe7-6576-48fa-b33b-e9126086547f": {
 					"name": "Daily mail reminder"
 				},
 				"3b1b957a-e76c-4b45-b76c-bd19199fa7b5": {
-					"name": "daily "
+					"name": "Daily Reminder"
 				}
 			},
 			"activities": {
@@ -68,7 +109,7 @@
 					"name": "Context building"
 				},
 				"c353af51-80ea-4e99-9eef-3b0cbe199500": {
-					"name": "BMI Complaint Approval workflow "
+					"name": "Complaint Approval Process"
 				},
 				"dc60d930-1617-4516-897d-bd30dfd9cdf0": {
 					"name": "ApprovalStepDetermination"
@@ -228,9 +269,6 @@
 				"bb988295-9700-4370-8293-b37242801e53": {
 					"name": "SequenceFlow135"
 				},
-				"fb95e4fe-4a1f-4d4e-bc92-06660022028a": {
-					"name": "SequenceFlow137"
-				},
 				"083f95d2-523e-4b7f-8018-221c047dc88e": {
 					"name": "SequenceFlow138"
 				},
@@ -254,6 +292,9 @@
 				},
 				"eb5e55cf-4e2f-46e9-a8e1-f6170bc06a7e": {
 					"name": "SequenceFlow156"
+				},
+				"0523be8a-dd1b-4cf7-9ed3-83c92c408669": {
+					"name": "SequenceFlow178"
 				}
 			},
 			"diagrams": {
@@ -263,7 +304,7 @@
 		"a048f43e-2701-4c64-a605-0698ccd58d1f": {
 			"classDefinition": "com.sap.bpm.wfs.StartEvent",
 			"id": "startevent1",
-			"name": "StartEvent1",
+			"name": "Complaint Approval Process Started",
 			"sampleContextRefs": {
 				"e5aaaeef-fca5-42b1-95b9-f0a888de074a": {}
 			}
@@ -271,7 +312,11 @@
 		"dfea7543-f13c-48ff-b635-388953911302": {
 			"classDefinition": "com.sap.bpm.wfs.EndEvent",
 			"id": "endevent1",
-			"name": "EndEvent1"
+			"name": "All Approvals",
+			"documentation": "All levels approved, workflow completed.",
+			"eventDefinitions": {
+				"8d55072f-864d-481e-883a-c2ebc925a51b": {}
+			}
 		},
 		"909b24a6-6241-4624-ace4-b8d868f42afb": {
 			"classDefinition": "com.sap.bpm.wfs.BoundaryEvent",
@@ -286,7 +331,7 @@
 		"35302442-9de9-4305-bbbb-02251c8f3c95": {
 			"classDefinition": "com.sap.bpm.wfs.EndEvent",
 			"id": "endevent2",
-			"name": "EndEvent2"
+			"name": "Waiting For Approval"
 		},
 		"a44c7fe7-6576-48fa-b33b-e9126086547f": {
 			"classDefinition": "com.sap.bpm.wfs.BoundaryEvent",
@@ -301,7 +346,7 @@
 		"3b1b957a-e76c-4b45-b76c-bd19199fa7b5": {
 			"classDefinition": "com.sap.bpm.wfs.IntermediateCatchEvent",
 			"id": "intermediatetimerevent4",
-			"name": "daily ",
+			"name": "Daily Reminder",
 			"eventDefinitions": {
 				"944c1e80-661d-4d66-aeef-3190ebb82de3": {}
 			}
@@ -323,8 +368,19 @@
 			"recipientUsers": "${context.CurrentUser}",
 			"recipientGroups": "",
 			"userInterfaceParams": [],
+			"customAttributes": [{
+				"id": "ApprovalStepsReq",
+				"label": "Total Approval Levels",
+				"type": "string",
+				"value": "${context.ApprovalStepsReq}"
+			}, {
+				"id": "ApprovalLevel",
+				"label": "Current Approval Level",
+				"type": "string",
+				"value": "${context.ApprovalLevel}"
+			}],
 			"id": "usertask1",
-			"name": "BMI Complaint Approval workflow ",
+			"name": "Complaint Approval Process",
 			"documentation": "Approver for complaint",
 			"dueDateRef": "d119e441-24a0-4d98-8be1-91fc6578ccd5"
 		},
@@ -658,7 +714,7 @@
 		},
 		"0f3ad763-086e-433b-9b0d-320473dca5c9": {
 			"classDefinition": "com.sap.bpm.wfs.SequenceFlow",
-			"condition": "${context.StatusUpdate.SettlementTrackingUpdate.ApprovalList.CurrentStatus=='Complete'}",
+			"condition": "${context.StatusUpdate.SettlementTrackingUpdate.CurrentStatus=='Completed'}",
 			"id": "sequenceflow123",
 			"name": "complete",
 			"sourceRef": "4ebda8ab-ac27-4a89-80b5-a549e738f810",
@@ -712,13 +768,6 @@
 			"name": "SequenceFlow135",
 			"sourceRef": "5f6b9e8f-ac55-413d-ab3b-9a9ac59d4c2d",
 			"targetRef": "1d7efdd9-c627-48d8-9ae8-32e1eee2745c"
-		},
-		"fb95e4fe-4a1f-4d4e-bc92-06660022028a": {
-			"classDefinition": "com.sap.bpm.wfs.SequenceFlow",
-			"id": "sequenceflow137",
-			"name": "SequenceFlow137",
-			"sourceRef": "a0422c39-8ed0-4e44-b4a7-4644622c9ab7",
-			"targetRef": "c353af51-80ea-4e99-9eef-3b0cbe199500"
 		},
 		"083f95d2-523e-4b7f-8018-221c047dc88e": {
 			"classDefinition": "com.sap.bpm.wfs.SequenceFlow",
@@ -776,6 +825,13 @@
 			"sourceRef": "658abed9-08ad-4d7c-8750-d30411159431",
 			"targetRef": "621c09d7-0f29-4ce7-83ed-99371d468005"
 		},
+		"0523be8a-dd1b-4cf7-9ed3-83c92c408669": {
+			"classDefinition": "com.sap.bpm.wfs.SequenceFlow",
+			"id": "sequenceflow178",
+			"name": "SequenceFlow178",
+			"sourceRef": "a0422c39-8ed0-4e44-b4a7-4644622c9ab7",
+			"targetRef": "c353af51-80ea-4e99-9eef-3b0cbe199500"
+		},
 		"83b35ba5-cfe5-43bb-8dbf-e2ef79d3f30e": {
 			"classDefinition": "com.sap.bpm.wfs.ui.Diagram",
 			"symbols": {
@@ -829,7 +885,6 @@
 				"8517d93d-771e-494a-a5f5-09b4f00221b7": {},
 				"253d1d3d-bbd3-4cae-b73e-fc4930809431": {},
 				"a1ea40fd-dcb0-4aa3-92e3-f4f0f753f615": {},
-				"a1367d2d-8679-4764-806a-f096148529b6": {},
 				"e2268928-1a18-476b-aacb-df16e4da1886": {},
 				"86c56b32-f915-44bc-be7b-a6f3baf905f7": {},
 				"d46586dc-3d31-4d7a-838d-c69cb93f6777": {},
@@ -845,13 +900,18 @@
 				"b1e0b706-5ce9-4b3c-be11-d4de1beb81f8": {},
 				"d546440b-7928-4c40-9eb5-1258b716fdb0": {},
 				"d925033c-d1fc-4bf7-a827-ffb8c0a382f4": {},
-				"ba95d462-baae-49fd-916d-267acff45d8b": {}
+				"ba95d462-baae-49fd-916d-267acff45d8b": {},
+				"c6c18757-1675-486a-885e-a47e4e8054ef": {}
 			}
 		},
 		"e5aaaeef-fca5-42b1-95b9-f0a888de074a": {
 			"classDefinition": "com.sap.bpm.wfs.SampleContext",
 			"reference": "/sample-data/WFComplaint/CPIJSON.json",
 			"id": "default-start-context"
+		},
+		"8d55072f-864d-481e-883a-c2ebc925a51b": {
+			"classDefinition": "com.sap.bpm.wfs.TerminateEventDefinition",
+			"id": "terminateeventdefinition1"
 		},
 		"37226669-d699-42c1-8f1a-0ca07b2a2064": {
 			"classDefinition": "com.sap.bpm.wfs.TimerEventDefinition",
@@ -952,7 +1012,7 @@
 		},
 		"3a061b6d-6b0c-40f5-ba04-775a95d690a3": {
 			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "729.9999982118607,1073.9999940395355 729.9999982118607,1153.999993443489 433.8333318432172,1153.999993443489 433.8333318432172,1233.9999928474426",
+			"points": "729.9999982118607,1073.9999940395355 730,1163 434.8333435058594,1163 434.8333318432172,1262.9999928474426",
 			"sourceSymbol": "b76d79e0-60f9-4dff-a058-4f8297c44561",
 			"targetSymbol": "a1ea40fd-dcb0-4aa3-92e3-f4f0f753f615",
 			"object": "ff8d8b9a-2f72-4adb-ad14-76598ae96398"
@@ -1030,7 +1090,7 @@
 		},
 		"a741fa62-56fc-47e0-b5f5-481f947cc85a": {
 			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "195.49999850988388,1363.9999928474426 195.5,1414.5 344.25,1414.5 344.25,1313.5 493,1313.5 492.9999985098839,1363.9999916553497",
+			"points": "195.49999850988388,1363.9999928474426 195.5,1414.5 344.25,1414.5 344.25,1344 493,1344 492.9999985098839,1363.9999916553497",
 			"sourceSymbol": "bbdce832-b58f-4d24-8a15-baed27b20415",
 			"targetSymbol": "07eb3755-f538-42d0-aba3-98751d889088",
 			"object": "53cab001-ea8b-4ad9-a2f6-329c38b53969"
@@ -1058,7 +1118,7 @@
 		},
 		"014f0912-6894-400e-98c7-3d5b6e550716": {
 			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "137.99999940395355,1064.9999940395355 137.99999940395355,1153.999993443489 433.8333318432172,1153.999993443489 433.8333318432172,1233.9999928474426",
+			"points": "137.99999940395355,1064.9999940395355 138,1164 434.8333435058594,1164 434.8333318432172,1262.9999928474426",
 			"sourceSymbol": "4a317d88-84fd-42ae-86dc-cb62d69a6cab",
 			"targetSymbol": "a1ea40fd-dcb0-4aa3-92e3-f4f0f753f615",
 			"object": "27664fd4-6b03-4dba-b649-1792ddab3c74"
@@ -1205,7 +1265,7 @@
 		},
 		"81fbde3a-f1da-4682-816d-4c6512207f94": {
 			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "189.99999940395355,943.9999952316284 189.99999940395355,978.999994635582 258.99999940395355,978.999994635582 258.99999940395355,1013.9999940395355",
+			"points": "189.99999940395355,943.9999952316284 189.99999940395355,798 258.99999940395355,798 258.99999940395355,1013.9999940395355",
 			"sourceSymbol": "0b0fca47-d0d6-4d73-ad5e-5c37e110a821",
 			"targetSymbol": "50e4346b-a3e1-4a3c-a4ab-27f14767bb1b",
 			"object": "a693f6ae-5839-4820-9d3d-4aca74c3d54b"
@@ -1234,18 +1294,11 @@
 		},
 		"a1ea40fd-dcb0-4aa3-92e3-f4f0f753f615": {
 			"classDefinition": "com.sap.bpm.wfs.ui.ScriptTaskSymbol",
-			"x": 400.4999985098839,
-			"y": 1233.9999928474426,
+			"x": 401.4999985098839,
+			"y": 1262.9999928474426,
 			"width": 100,
 			"height": 60,
 			"object": "a0422c39-8ed0-4e44-b4a7-4644622c9ab7"
-		},
-		"a1367d2d-8679-4764-806a-f096148529b6": {
-			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
-			"points": "433.8333318432172,1233.9999928474426 433.8333318432172,1225 -144,1225 -144,978.999994635582 -156,978.999994635582 -156,668.9999958276749 -164,668.9999958276749 -164,493.99999701976776 -122,493.99999701976776 -122,146 279.49999940395355,146 279.49999940395355,223.9999988079071 420.4999988079071,223.9999988079071",
-			"sourceSymbol": "a1ea40fd-dcb0-4aa3-92e3-f4f0f753f615",
-			"targetSymbol": "b70a0ec1-f3f5-49e6-804c-2d1f2b4199ac",
-			"object": "fb95e4fe-4a1f-4d4e-bc92-06660022028a"
 		},
 		"e2268928-1a18-476b-aacb-df16e4da1886": {
 			"classDefinition": "com.sap.bpm.wfs.ui.ScriptTaskSymbol",
@@ -1367,6 +1420,13 @@
 			"targetSymbol": "4872b741-3da7-4926-afa7-45846e02f99f",
 			"object": "eb5e55cf-4e2f-46e9-a8e1-f6170bc06a7e"
 		},
+		"c6c18757-1675-486a-885e-a47e4e8054ef": {
+			"classDefinition": "com.sap.bpm.wfs.ui.SequenceFlowSymbol",
+			"points": "452.9999986588955,1263.4999928474426 -465,1263.4999928474426 -465,283.4999988079071 452.9999986588955,283.4999988079071",
+			"sourceSymbol": "a1ea40fd-dcb0-4aa3-92e3-f4f0f753f615",
+			"targetSymbol": "b70a0ec1-f3f5-49e6-804c-2d1f2b4199ac",
+			"object": "0523be8a-dd1b-4cf7-9ed3-83c92c408669"
+		},
 		"a3603084-5516-4f00-8389-0a7865c8cc6d": {
 			"classDefinition": "com.sap.bpm.wfs.ui.BoundaryEventSymbol",
 			"x": 404.4999988079071,
@@ -1381,20 +1441,24 @@
 		},
 		"e427f93f-19ec-48b6-b848-c19b18243101": {
 			"classDefinition": "com.sap.bpm.wfs.LastIDs",
+			"terminateeventdefinition": 1,
+			"messageeventdefinition": 2,
+			"message": 1,
 			"timereventdefinition": 8,
 			"maildefinition": 3,
 			"hubapireference": 9,
-			"sequenceflow": 156,
-			"startevent": 1,
+			"sequenceflow": 178,
+			"startevent": 3,
+			"intermediatemessageevent": 2,
 			"intermediatetimerevent": 4,
 			"boundarytimerevent": 2,
-			"endevent": 2,
+			"endevent": 3,
 			"usertask": 5,
 			"servicetask": 20,
 			"scripttask": 20,
 			"mailtask": 4,
-			"exclusivegateway": 14,
-			"parallelgateway": 3
+			"exclusivegateway": 17,
+			"parallelgateway": 6
 		},
 		"d119e441-24a0-4d98-8be1-91fc6578ccd5": {
 			"classDefinition": "com.sap.bpm.wfs.TimerEventDefinition",
@@ -1421,6 +1485,11 @@
 			"api": "SAP_CF_BusinessRules_Runtime_V2",
 			"apiName": "Rule Execution API for Cloud Foundry",
 			"id": "hubapireference9"
+		},
+		"3239408e-7516-4c75-b4f6-f44059f767f6": {
+			"classDefinition": "com.sap.bpm.wfs.Message",
+			"name": "Approval Step started",
+			"id": "message1"
 		}
 	}
 }

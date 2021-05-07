@@ -1,0 +1,10 @@
+{
+    "tasks": [
+        {
+            "type": "deploy-mta",
+            "label": "deploy-mta: Template: Deploy cf_com_sap_bmi_scp_apps/mta_archives/cf_com_sap_bmi_scp_apps_0.0.1.mtar",
+            "taskType": "deploy-mta",
+            "mtarPath": "/home/user/projects/cf_com_sap_bmi_scp_apps/mta_archives/cf_com_sap_bmi_scp_apps_0.0.1.mtar"
+        }
+    ]
+}

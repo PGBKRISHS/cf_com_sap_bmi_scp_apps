@@ -14,6 +14,7 @@ var URLHelper = mobileLibrary.URLHelper;
 			var oComponent = this.getOwnerComponent();
 			oComponent.getModel("oLocalJsonModel");
             var PrevComment = oComponent.getModel("oLocalJsonModel").getProperty("/Comments");
+            this.getView().byId("ObjectPageLayout").addStyleClass("marginclass");
 			if (!(PrevComment)) {
 				this.getView().byId("IdLblPrevComments").setVisible(false);
 				this.getView().byId("IdTxtPrevComments").setVisible(false);

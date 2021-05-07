@@ -3,6 +3,11 @@
  margin-right: 1.5rem !important;
 }
 
-.sapUShellApplicationContainerLimitedWidth {
-    width: 0 !important;
+/* .marginclass {
+    width: none !important;
+} */
+
+.sapUShellApplicationContainerLimitedWidth
+{
+    width: none !important;
 }

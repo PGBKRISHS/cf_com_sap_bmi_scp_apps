@@ -3,7 +3,7 @@ var date = new Date();
 if ($.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_ImmediateSettlement_Header_KUT == "")
 {$.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_ImmediateSettlement_Header_KUT =  "2";}
 $.context.CurrentStatus = "To be approved ";
-
+$.context.WFInstanceID = $.info.workflowInstanceId;
  $.context.LastUpdated =  date;
 $.context.ApprovalLevel = "1";
 $.context.ApprovalLevel1 = "0";

@@ -22,6 +22,7 @@ else{
 {
    
     var users = $.context.approver_result[i].ApproverId.replace(" , ",",");
+    users = users.replaceAll(" ","");
     var approverIdTab = users.split(",");
     
     for(var k =0; k< approverIdTab.length ; k++)
@@ -44,6 +45,26 @@ else{
             }
         }
     }
+}
+if(i == "0")
+{
+   $.context.Approverlevel1 = $.context.approver_result[i].ApproverName; 
+}
+else if(i == "1")
+{
+    $.context.Approverlevel2 = $.context.approver_result[i].ApproverName;
+}
+else if(i == "2")
+{
+    $.context.Approverlevel3 = $.context.approver_result[i].ApproverName;
+}
+else if(i == "3")
+{
+    $.context.Approverlevel4 = $.context.approver_result[i].ApproverName;
+}
+else if(i == "4")
+{
+    $.context.Approverlevel5 = $.context.approver_result[i].ApproverName;
 }
 }
 $.context.userstemp = users; 

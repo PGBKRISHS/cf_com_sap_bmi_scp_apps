@@ -27,6 +27,7 @@ var status = {
     "CostAllocation": $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ZCostAllocation_KUT,
     "CostSplit": $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_CostSplit_New_KUT,
     "SettlementTrackingUpdate": {"ApprovalList": [],
+                                "CurrentStatus": "Running",
                                 "ApprovalStartDate": "Yet to Start",
 	                            "LastUpdate": "Yet to Start"
                                 }
@@ -49,5 +50,6 @@ var ApproverIf = {"RuleServiceId": "8c8352a976a34857a8ea7b68be9a4eb9",
     //"ImmediateSettlement": $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_ImmediateSettlement_Header_KUT
         }
     }]};
+    
 $.context.ApproverIdIf = ApproverIf;
 

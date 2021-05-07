@@ -1,7 +1,7 @@
 var i = $.context.ApprovalLevel - 1;
 var taskDefinitionId = $.usertasks.usertask1.last.id; //$.info.taskDefinitionId;
 var newLine = "\n";
-var subject = "Request for Approval of Customer Complaint (ID:  " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID + " )";
+var subject = "Request for Approval of Customer Complaint (ID:  " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID + " ) created by " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Createdby.Createdby.FormattedName;
 if ($.context.approver_result.length == undefined){
     var dear = "Hello Mr." + $.context.approver_result.ApproverName + newLine + newLine;
 }else{var dear = "Hello Mr." + $.context.approver_result[i].ApproverName + newLine + newLine;}
