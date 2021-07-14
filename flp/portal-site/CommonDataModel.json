@@ -46,6 +46,10 @@
 					"id": "com.sap.bpm.monitorworkflow-1-1569475771450",
 					"appId": "com.sap.bpm.monitorworkflow",
 					"vizId": "bpmworkflowmonitor-DisplayDefinitions"
+				}, {
+					"id": "sap.rule.manageprojects-1-1589952114451",
+					"appId": "sap.rule.manageprojects",
+					"vizId": "secondLauncher"
 				}]
 			}
 		}],

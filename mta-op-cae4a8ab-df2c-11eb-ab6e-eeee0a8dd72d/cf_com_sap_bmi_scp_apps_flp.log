@@ -1,0 +1,1072 @@
+#2.0#2021 07 07 14:09:41.270#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:11 UTC 2021] Cell 72ab4373-5625-4b04-937f-9701c8671391 creating container for instance dd902340-2de6-4920-9de7-3135810f2d9d (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.270#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:11 UTC 2021] Cell 72ab4373-5625-4b04-937f-9701c8671391 successfully created container for instance dd902340-2de6-4920-9de7-3135810f2d9d (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:13 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:13 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:13 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d","1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:23 UTC 2021] Portal service deploy success. status = 200, data: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: d8e46384-c5b2-4075-44e8-f8bd2752e092 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:23 UTC 2021] Deploy site elapsed time: 9.265s (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:23 UTC 2021] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: d8e46384-c5b2-4075-44e8-f8bd2752e092 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:23 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:23 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:23 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:23 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:23 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:23 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:23 UTC 2021] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:23 UTC 2021] Cell 72ab4373-5625-4b04-937f-9701c8671391 stopping instance dd902340-2de6-4920-9de7-3135810f2d9d (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:23 UTC 2021] Cell 72ab4373-5625-4b04-937f-9701c8671391 destroying container for instance dd902340-2de6-4920-9de7-3135810f2d9d (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:12:23 UTC 2021] Cell 72ab4373-5625-4b04-937f-9701c8671391 successfully destroyed container for instance dd902340-2de6-4920-9de7-3135810f2d9d (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:21:55 UTC 2021] Cell bb9c766a-7295-4d23-9a41-382c432fc60c creating container for instance b94c3c54-f852-497e-bbe2-0b6166938b10 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:21:55 UTC 2021] Cell bb9c766a-7295-4d23-9a41-382c432fc60c successfully created container for instance b94c3c54-f852-497e-bbe2-0b6166938b10 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:21:58 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:21:58 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:21:58 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d","1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:22:09 UTC 2021] Portal service deploy success. status = 200, data: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 6c278dae-8ab0-45f4-5bbe-4b2c62055b65 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:22:09 UTC 2021] Deploy site elapsed time: 10.345s (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:22:09 UTC 2021] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 6c278dae-8ab0-45f4-5bbe-4b2c62055b65 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:22:09 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:22:09 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:22:09 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:22:09 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:22:09 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:22:09 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:22:09 UTC 2021] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:22:09 UTC 2021] Cell bb9c766a-7295-4d23-9a41-382c432fc60c stopping instance b94c3c54-f852-497e-bbe2-0b6166938b10 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:22:09 UTC 2021] Cell bb9c766a-7295-4d23-9a41-382c432fc60c destroying container for instance b94c3c54-f852-497e-bbe2-0b6166938b10 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:22:09 UTC 2021] Cell bb9c766a-7295-4d23-9a41-382c432fc60c successfully destroyed container for instance b94c3c54-f852-497e-bbe2-0b6166938b10 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:34 UTC 2021] Cell 3afd5fec-e150-4d2c-ba68-73c0d86e81e5 creating container for instance 36c9a115-5a41-427d-a4a7-571ac7c84fea (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:35 UTC 2021] Cell 3afd5fec-e150-4d2c-ba68-73c0d86e81e5 successfully created container for instance 36c9a115-5a41-427d-a4a7-571ac7c84fea (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:37 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:37 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.271#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:38 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098","4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:47 UTC 2021] Portal service deploy success. status = 200, data: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 5a5fb452-c5db-460e-437f-88406dcddb86 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:47 UTC 2021] Deploy site elapsed time: 9.603s (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:47 UTC 2021] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 5a5fb452-c5db-460e-437f-88406dcddb86 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:47 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:47 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:47 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:47 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:47 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:47 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:47 UTC 2021] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:47 UTC 2021] Cell 3afd5fec-e150-4d2c-ba68-73c0d86e81e5 destroying container for instance 36c9a115-5a41-427d-a4a7-571ac7c84fea (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:47 UTC 2021] Cell 3afd5fec-e150-4d2c-ba68-73c0d86e81e5 stopping instance 36c9a115-5a41-427d-a4a7-571ac7c84fea (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:34:48 UTC 2021] Cell 3afd5fec-e150-4d2c-ba68-73c0d86e81e5 successfully destroyed container for instance 36c9a115-5a41-427d-a4a7-571ac7c84fea (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:35 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 creating container for instance da12cbe3-1565-400d-830f-af3b5409692c (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:35 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 successfully created container for instance da12cbe3-1565-400d-830f-af3b5409692c (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:38 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:38 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:38 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098","4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:46 UTC 2021] Portal service deploy success. status = 200, data: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 3dded78b-3a1d-47ec-49dc-ce1612ca9c67 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:46 UTC 2021] Deploy site elapsed time: 8.305s (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:46 UTC 2021] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 3dded78b-3a1d-47ec-49dc-ce1612ca9c67 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:46 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:46 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:46 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:46 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:46 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:46 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:46 UTC 2021] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:46 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 destroying container for instance da12cbe3-1565-400d-830f-af3b5409692c (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:46 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 stopping instance da12cbe3-1565-400d-830f-af3b5409692c (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 10:56:47 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 successfully destroyed container for instance da12cbe3-1565-400d-830f-af3b5409692c (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:09 UTC 2021] Cell 9ab87b16-72e5-460d-b2a6-bfe2dce625c9 creating container for instance 707b3e70-50c9-4242-aea7-4317bcc52168 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:09 UTC 2021] Cell 9ab87b16-72e5-460d-b2a6-bfe2dce625c9 successfully created container for instance 707b3e70-50c9-4242-aea7-4317bcc52168 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:12 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:12 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:12 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d","1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:20 UTC 2021] Portal service deploy success. status = 200, data: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: b00b267a-1397-44e2-4da4-e523b8d175d6 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:20 UTC 2021] Deploy site elapsed time: 7.405s (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:20 UTC 2021] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: b00b267a-1397-44e2-4da4-e523b8d175d6 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:20 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:20 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:20 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:20 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:20 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:20 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:20 UTC 2021] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:20 UTC 2021] Cell 9ab87b16-72e5-460d-b2a6-bfe2dce625c9 stopping instance 707b3e70-50c9-4242-aea7-4317bcc52168 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.272#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:20 UTC 2021] Cell 9ab87b16-72e5-460d-b2a6-bfe2dce625c9 destroying container for instance 707b3e70-50c9-4242-aea7-4317bcc52168 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:40:20 UTC 2021] Cell 9ab87b16-72e5-460d-b2a6-bfe2dce625c9 successfully destroyed container for instance 707b3e70-50c9-4242-aea7-4317bcc52168 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:45:59 UTC 2021] Cell 4142d6a2-31c6-4031-a223-565bebd04e86 creating container for instance d23396ba-a126-476d-8a15-c51df84685f6 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:00 UTC 2021] Cell 4142d6a2-31c6-4031-a223-565bebd04e86 successfully created container for instance d23396ba-a126-476d-8a15-c51df84685f6 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:03 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:03 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:03 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098","4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:15 UTC 2021] Portal service deploy success. status = 200, data: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: b5f666be-4f03-4d91-6669-a39d356d9908 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:15 UTC 2021] Deploy site elapsed time: 11.640s (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:15 UTC 2021] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: b5f666be-4f03-4d91-6669-a39d356d9908 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:15 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:15 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:15 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:15 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:15 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:15 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:15 UTC 2021] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:15 UTC 2021] Cell 4142d6a2-31c6-4031-a223-565bebd04e86 destroying container for instance d23396ba-a126-476d-8a15-c51df84685f6 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:15 UTC 2021] Cell 4142d6a2-31c6-4031-a223-565bebd04e86 stopping instance d23396ba-a126-476d-8a15-c51df84685f6 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:46:15 UTC 2021] Cell 4142d6a2-31c6-4031-a223-565bebd04e86 successfully destroyed container for instance d23396ba-a126-476d-8a15-c51df84685f6 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:56:57 UTC 2021] Cell f931e79c-b045-499d-99ab-2d50a96b1e97 creating container for instance f2f11786-9b96-450d-a07e-82542f8b8a82 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:56:58 UTC 2021] Cell f931e79c-b045-499d-99ab-2d50a96b1e97 successfully created container for instance f2f11786-9b96-450d-a07e-82542f8b8a82 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:57:01 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:57:01 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:57:02 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098","4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:03 UTC 2021] Deploy site elapsed time: 2:00.703 (m:ss.mmm) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:03 UTC 2021] Deployment of site content to persistency failed [Deployment Id:none] , Error: Deploy to portal service failed, got status = 500, data: Failed to deploy site, instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: af7f72a2-d992-4e86-798a-e453d8c37834 - Error: "Failed to import site, tenantId: 784ec483-80c3-4a83-80e5-4b5532257df3, instanceId: 1861190c-6644-4fd4-80c4-1e690f9d94c6, appHostIds: {\"appHostIds\":[\"734869ed-d758-416d-9b90-2b85aa4ffa6e\"],\"boundAppHostIds\":[\"1365363a-6e04-4f43-876a-67b81f32306e\",\"1a5b93af-f1af-4acf-aee0-8c6cc8d3f315\",\"8964e911-e35d-4cfd-972e-08e681a2df0f\",\"9ea7410f-80ea-4b19-bbf0-4fca238ef098\",\"4e486beb-e3e3-4aaa-8a5a-c843e767f708\",\"f01f5504-583d-469e-b88c-ce3d951bd22d\"],\"instanceId\":\"1861190c-6644-4fd4-80c4-1e690f9d94c6\"}, xsAppNameServicesMap: {\"com.sap.portal.no.business.service\":\"com_sap_bmi_scp_apps!t57778\",\"html5-apps-repo-rt\":\"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685\",\"html5-apps-repo-dt\":\"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685\",\"com.sap.bpm.workflow\":\"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150\",\"com.sap.bpm.rule\":\"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466\"}, blueBoxMetadataStr: undefined Error : undefined" (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:03 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:03 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:03 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:03 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:03 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:03 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:03 UTC 2021] Exit status 1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:03 UTC 2021] Cell f931e79c-b045-499d-99ab-2d50a96b1e97 destroying container for instance f2f11786-9b96-450d-a07e-82542f8b8a82 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:03 UTC 2021] Cell f931e79c-b045-499d-99ab-2d50a96b1e97 stopping instance f2f11786-9b96-450d-a07e-82542f8b8a82 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:03 UTC 2021] Cell f931e79c-b045-499d-99ab-2d50a96b1e97 successfully destroyed container for instance f2f11786-9b96-450d-a07e-82542f8b8a82 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:10 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 creating container for instance 81978894-6abf-4457-b394-606c0cc48eb7 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:10 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 successfully created container for instance 81978894-6abf-4457-b394-606c0cc48eb7 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:13 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:13 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:13 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098","4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.273#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:15 UTC 2021] Portal service deploy success. status = 200, data: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: a64f1c10-d136-4ee5-6f31-c3eaf57bc55a finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:15 UTC 2021] Deploy site elapsed time: 1.524s (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:15 UTC 2021] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: a64f1c10-d136-4ee5-6f31-c3eaf57bc55a finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:15 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:15 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:15 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:15 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:15 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:15 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:15 UTC 2021] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:15 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 destroying container for instance 81978894-6abf-4457-b394-606c0cc48eb7 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:15 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 stopping instance 81978894-6abf-4457-b394-606c0cc48eb7 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 11:59:16 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 successfully destroyed container for instance 81978894-6abf-4457-b394-606c0cc48eb7 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:26 UTC 2021] Cell 9ab87b16-72e5-460d-b2a6-bfe2dce625c9 creating container for instance bad32dd1-b450-4a93-acfc-5c6b95143c2e (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:27 UTC 2021] Cell 9ab87b16-72e5-460d-b2a6-bfe2dce625c9 successfully created container for instance bad32dd1-b450-4a93-acfc-5c6b95143c2e (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:29 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:29 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:30 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098","4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:38 UTC 2021] Portal service deploy success. status = 200, data: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 8d7a6fbd-b839-4b51-4196-a2dcf21a5687 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:38 UTC 2021] Deploy site elapsed time: 8.464s (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:38 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:38 UTC 2021] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 8d7a6fbd-b839-4b51-4196-a2dcf21a5687 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:38 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:38 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:38 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:38 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:38 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:38 UTC 2021] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:38 UTC 2021] Cell 9ab87b16-72e5-460d-b2a6-bfe2dce625c9 destroying container for instance bad32dd1-b450-4a93-acfc-5c6b95143c2e (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:38 UTC 2021] Cell 9ab87b16-72e5-460d-b2a6-bfe2dce625c9 stopping instance bad32dd1-b450-4a93-acfc-5c6b95143c2e (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:39:39 UTC 2021] Cell 9ab87b16-72e5-460d-b2a6-bfe2dce625c9 successfully destroyed container for instance bad32dd1-b450-4a93-acfc-5c6b95143c2e (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:43 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 creating container for instance e5fa6528-dc73-4cd5-b1e0-66934142c2cf (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:43 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 successfully created container for instance e5fa6528-dc73-4cd5-b1e0-66934142c2cf (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:45 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:45 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:46 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d","1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:57 UTC 2021] Portal service deploy success. status = 200, data: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 53dc8045-a275-45ca-5999-28e968857f3a finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:57 UTC 2021] Deploy site elapsed time: 11.337s (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:57 UTC 2021] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 53dc8045-a275-45ca-5999-28e968857f3a finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:57 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:57 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:57 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:57 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:57 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.274#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:57 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:57 UTC 2021] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:57 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 stopping instance e5fa6528-dc73-4cd5-b1e0-66934142c2cf (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:57 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 destroying container for instance e5fa6528-dc73-4cd5-b1e0-66934142c2cf (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:41:58 UTC 2021] Cell 61f6cf2b-a6ca-4e30-b0f0-872c9ffcefc3 successfully destroyed container for instance e5fa6528-dc73-4cd5-b1e0-66934142c2cf (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:32 UTC 2021] Cell 904790a7-0399-47ff-9b45-40a0181a9604 creating container for instance d2b65f88-de68-40af-b6b3-f71ad99a6057 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:32 UTC 2021] Cell 904790a7-0399-47ff-9b45-40a0181a9604 successfully created container for instance d2b65f88-de68-40af-b6b3-f71ad99a6057 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:34 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:34 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:35 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098","4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:43 UTC 2021] Portal service deploy success. status = 200, data: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 7df153c4-8ecb-4399-5ee9-d8952f0800e5 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:43 UTC 2021] Deploy site elapsed time: 8.329s (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:43 UTC 2021] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 7df153c4-8ecb-4399-5ee9-d8952f0800e5 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:43 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:43 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:43 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:43 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:43 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:43 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:43 UTC 2021] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:43 UTC 2021] Cell 904790a7-0399-47ff-9b45-40a0181a9604 destroying container for instance d2b65f88-de68-40af-b6b3-f71ad99a6057 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:43 UTC 2021] Cell 904790a7-0399-47ff-9b45-40a0181a9604 stopping instance d2b65f88-de68-40af-b6b3-f71ad99a6057 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:45:44 UTC 2021] Cell 904790a7-0399-47ff-9b45-40a0181a9604 successfully destroyed container for instance d2b65f88-de68-40af-b6b3-f71ad99a6057 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:52:54 UTC 2021] Cell f931e79c-b045-499d-99ab-2d50a96b1e97 creating container for instance b7bb9bc6-8334-4652-ab6e-9bcd2ccf3772 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:52:54 UTC 2021] Cell f931e79c-b045-499d-99ab-2d50a96b1e97 successfully created container for instance b7bb9bc6-8334-4652-ab6e-9bcd2ccf3772 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:52:56 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:52:56 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:52:57 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d","1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:53:06 UTC 2021] Portal service deploy success. status = 200, data: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 427dc3b6-8de2-4750-6044-8b5f7e7ea864 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:53:06 UTC 2021] Deploy site elapsed time: 9.044s (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:53:06 UTC 2021] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: 427dc3b6-8de2-4750-6044-8b5f7e7ea864 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:53:06 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:53:06 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:53:06 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:53:06 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:53:06 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:53:06 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:53:06 UTC 2021] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:53:06 UTC 2021] Cell f931e79c-b045-499d-99ab-2d50a96b1e97 destroying container for instance b7bb9bc6-8334-4652-ab6e-9bcd2ccf3772 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:53:06 UTC 2021] Cell f931e79c-b045-499d-99ab-2d50a96b1e97 stopping instance b7bb9bc6-8334-4652-ab6e-9bcd2ccf3772 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 12:53:07 UTC 2021] Cell f931e79c-b045-499d-99ab-2d50a96b1e97 successfully destroyed container for instance b7bb9bc6-8334-4652-ab6e-9bcd2ccf3772 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:11 UTC 2021] Cell 3afd5fec-e150-4d2c-ba68-73c0d86e81e5 creating container for instance 0eea343c-5688-4c8f-ad57-885eb7d16819 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:12 UTC 2021] Cell 3afd5fec-e150-4d2c-ba68-73c0d86e81e5 successfully created container for instance 0eea343c-5688-4c8f-ad57-885eb7d16819 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.275#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:14 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:14 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:15 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d","1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:23 UTC 2021] Portal service deploy success. status = 200, data: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: cdedb6d5-057f-4b3c-7071-271636eacda3 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:23 UTC 2021] Deploy site elapsed time: 8.686s (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:23 UTC 2021] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: cdedb6d5-057f-4b3c-7071-271636eacda3 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:23 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:23 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:23 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:23 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:23 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:23 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:23 UTC 2021] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:23 UTC 2021] Cell 3afd5fec-e150-4d2c-ba68-73c0d86e81e5 destroying container for instance 0eea343c-5688-4c8f-ad57-885eb7d16819 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:23 UTC 2021] Cell 3afd5fec-e150-4d2c-ba68-73c0d86e81e5 stopping instance 0eea343c-5688-4c8f-ad57-885eb7d16819 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 13:05:24 UTC 2021] Cell 3afd5fec-e150-4d2c-ba68-73c0d86e81e5 successfully destroyed container for instance 0eea343c-5688-4c8f-ad57-885eb7d16819 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:41 UTC 2021] Cell aa6fcdc0-2802-4496-ad27-290ec77d7b1d creating container for instance faf45dc0-70b4-4709-9e01-23f3b36a3bcf (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:41 UTC 2021] Cell aa6fcdc0-2802-4496-ad27-290ec77d7b1d successfully created container for instance faf45dc0-70b4-4709-9e01-23f3b36a3bcf (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:44 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:44 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:44 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098","4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:54 UTC 2021] Portal service deploy success. status = 200, data: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: b22c0e6a-13a2-48a5-40e7-fc4007fb7930 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:54 UTC 2021] Deploy site elapsed time: 9.819s (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:54 UTC 2021] Deployment of site content to persistency done [Deployment Id:none], message: "deploy site with instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: b22c0e6a-13a2-48a5-40e7-fc4007fb7930 finished successfully" (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:54 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:54 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:54 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:54 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:54 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:54 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.276#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:54 UTC 2021] Exit status 0 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.277#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:55 UTC 2021] Cell aa6fcdc0-2802-4496-ad27-290ec77d7b1d destroying container for instance faf45dc0-70b4-4709-9e01-23f3b36a3bcf (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.277#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:55 UTC 2021] Cell aa6fcdc0-2802-4496-ad27-290ec77d7b1d stopping instance faf45dc0-70b4-4709-9e01-23f3b36a3bcf (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.277#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:02:55 UTC 2021] Cell aa6fcdc0-2802-4496-ad27-290ec77d7b1d successfully destroyed container for instance faf45dc0-70b4-4709-9e01-23f3b36a3bcf (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.277#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:09:30 UTC 2021] Cell ce427efa-18c2-40f8-9c3d-6fdf351e8d78 creating container for instance 7a37f5a4-78d7-43e2-83be-058326407b59 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.277#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:09:30 UTC 2021] Cell ce427efa-18c2-40f8-9c3d-6fdf351e8d78 successfully created container for instance 7a37f5a4-78d7-43e2-83be-058326407b59 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:09:41.277#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:09:33 UTC 2021] > node --harmony node_modules/@sap/portal-cf-content-deployer/src/index.js (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.277#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:09:33 UTC 2021] > site-content@1.0.0 start (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:09:41.277#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7196###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:09:33 UTC 2021] portalServiceDeploy sending archive with appHostIdsXsAppNameServicesMap= {"appHostIds":{"appHostIds":["734869ed-d758-416d-9b90-2b85aa4ffa6e"],"boundAppHostIds":["1365363a-6e04-4f43-876a-67b81f32306e","1a5b93af-f1af-4acf-aee0-8c6cc8d3f315","8964e911-e35d-4cfd-972e-08e681a2df0f","9ea7410f-80ea-4b19-bbf0-4fca238ef098","4e486beb-e3e3-4aaa-8a5a-c843e767f708","f01f5504-583d-469e-b88c-ce3d951bd22d"]},"xsAppNameServicesMap":{"com.sap.portal.no.business.service":"com_sap_bmi_scp_apps!t57778","html5-apps-repo-dt":"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685","html5-apps-repo-rt":"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685","com.sap.bpm.workflow":"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150","com.sap.bpm.rule":"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466"}} (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:11:42.579#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8720###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:11:33 UTC 2021] Deploy site elapsed time: 2:00.339 (m:ss.mmm) (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:11:42.579#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8720###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:11:33 UTC 2021] Deployment of site content to persistency failed [Deployment Id:none] , Error: Deploy to portal service failed, got status = 500, data: Failed to deploy site, instance id: 1861190c-6644-4fd4-80c4-1e690f9d94c6, correlation id: e827cd94-d808-4ae9-433b-a89ed887284b - Error: "Failed to import site, tenantId: 784ec483-80c3-4a83-80e5-4b5532257df3, instanceId: 1861190c-6644-4fd4-80c4-1e690f9d94c6, appHostIds: {\"appHostIds\":[\"734869ed-d758-416d-9b90-2b85aa4ffa6e\"],\"boundAppHostIds\":[\"1365363a-6e04-4f43-876a-67b81f32306e\",\"1a5b93af-f1af-4acf-aee0-8c6cc8d3f315\",\"8964e911-e35d-4cfd-972e-08e681a2df0f\",\"9ea7410f-80ea-4b19-bbf0-4fca238ef098\",\"4e486beb-e3e3-4aaa-8a5a-c843e767f708\",\"f01f5504-583d-469e-b88c-ce3d951bd22d\"],\"instanceId\":\"1861190c-6644-4fd4-80c4-1e690f9d94c6\"}, xsAppNameServicesMap: {\"com.sap.portal.no.business.service\":\"com_sap_bmi_scp_apps!t57778\",\"html5-apps-repo-dt\":\"734869ed-d758-416d-9b90-2b85aa4ffa6e!b57778|html5-apps-repo-uaa!b1685\",\"html5-apps-repo-rt\":\"8fa59a12-99ea-48ca-8eb3-bb4a5b4c73f8!b57778|html5-apps-repo-uaa!b1685\",\"com.sap.bpm.workflow\":\"clone-d06b30d4-9b4c-4145-a66b-86eb397d742e!b57778|workflow!b10150\",\"com.sap.bpm.rule\":\"clone-2a4fc8e0-9d8f-4d31-825f-88cecc8fed1f!b57778|bpmrulebroker!b2466\"}, blueBoxMetadataStr: undefined Error : undefined" (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:11:42.579#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8720###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:11:33 UTC 2021] deleteArchive: deploymentTemp folder was deleted successfully (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:11:42.579#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8720###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:11:33 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:11:42.579#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8720###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:11:33 UTC 2021] npm notice Run `npm install -g npm@7.19.1` to update! (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:11:42.579#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8720###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:11:33 UTC 2021] npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.19.1> (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:11:42.579#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8720###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:11:33 UTC 2021] npm notice New minor version of npm available! 7.7.6 -> 7.19.1 (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:11:42.579#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8720###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:11:33 UTC 2021] npm notice  (STDERR, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:11:42.579#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8720###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:11:33 UTC 2021] Exit status 1 (STDOUT, APP/TASK/deploy)#
+
+#2.0#2021 07 07 14:11:42.579#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8720###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:11:34 UTC 2021] Cell ce427efa-18c2-40f8-9c3d-6fdf351e8d78 destroying container for instance 7a37f5a4-78d7-43e2-83be-058326407b59 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:11:42.579#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8720###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:11:34 UTC 2021] Cell ce427efa-18c2-40f8-9c3d-6fdf351e8d78 stopping instance 7a37f5a4-78d7-43e2-83be-058326407b59 (STDOUT, CELL)#
+
+#2.0#2021 07 07 14:11:42.579#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_flp.executeTaskTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8720###
+[PollExecuteTaskStatusExecution] [cf_com_sap_bmi_scp_apps_flp] 0d4ececa-ac4d-4598-8dd9-d6ed9925b9ea [Wed Jul 07 14:11:34 UTC 2021] Cell ce427efa-18c2-40f8-9c3d-6fdf351e8d78 successfully destroyed container for instance 7a37f5a4-78d7-43e2-83be-058326407b59 (STDOUT, CELL)#
+

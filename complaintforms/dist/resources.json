@@ -1,13 +1,17 @@
 {
     "resources": [
         {
-            "name": "model/formatter.js"
+            "name": "Component-preload.js",
+            "merged": true
+        },
+        {
+            "name": "manifest.json"
         },
         {
             "name": "model/models.js"
         },
         {
-            "name": "manifest.json"
+            "name": "model/formatter.js"
         },
         {
             "name": "controller/ApproverScreen.controller.js"
@@ -17,10 +21,6 @@
         },
         {
             "name": "manifest-bundle.zip"
-        },
-        {
-            "name": "Component-preload.js",
-            "merged": true
         },
         {
             "name": "i18n/i18n.properties",

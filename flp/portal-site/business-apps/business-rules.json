@@ -24,7 +24,23 @@
 						}
 					}
 				}
+            },
+            "secondLauncher": {
+				"vizType": "sap.ushell.StaticAppLauncher",
+				"vizConfig": {
+					"sap.app": {
+						"title": "{{diffrentStaticUrlTitle}}",
+						"subTitle": "{{diffrentStaticUrlSubTitle}}"
+					},
+					"sap.flp": {
+						"target": {
+							"type": "URL",
+							"url": "https://google.com"
+						}
+					}
+				}
 			}
+            
 		}
 	}
 }

@@ -1,0 +1,56 @@
+#2.0#2021 07 07 14:09:30.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8369###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [INFO] Deployment of file Id ed869faa-df2c-11eb-9af2-95d868fb09da started#
+
+#2.0#2021 07 07 14:09:30.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8369###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [INFO] Deployment of Approver4.form started#
+
+#2.0#2021 07 07 14:09:30.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8369###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [INFO] Deployment of Approver4.form was completed successfully, Deployment details : {"deployResourceId":"edc11155-df2c-11eb-b11c-6964e2cd688a","contentId":"edc11154-df2c-11eb-b11c-ad0d22c4235c","deployedArtifactId":"approver4","deployedArtifactName":"Approver4","deployedArtifactVersion":"417"}#
+
+#2.0#2021 07 07 14:09:30.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8369###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [INFO] Deployment of myform.form started#
+
+#2.0#2021 07 07 14:09:30.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8369###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [INFO] Deployment of myform.form was completed successfully, Deployment details : {"deployResourceId":"edc11155-df2c-11eb-b11c-6964e2cd688a","contentId":"edc11154-df2c-11eb-b11c-ad0d22c4235c","deployedArtifactId":"myform","deployedArtifactName":"myform","deployedArtifactVersion":"417"}#
+
+#2.0#2021 07 07 14:09:30.892#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8369###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [INFO] Deployment of WFComplaint.workflow started#
+
+#2.0#2021 07 07 14:09:30.897#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8369###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [ERROR] Deployment of WFComplaint.workflow failed due to  invalid response code 422 from runtime server, Response Details: {"error":{"code":"bpm.workflowruntime.rest.validation.error","message":"Validation of the workflow model failed.","details":[{"severity":"error","message":"Mandatory attribute(s) 'apiPackage' on element 'hubapireference12' not available. Make sure that it has been provided.","modelElement":"hubapireference12","modelElementName":null}]}}#
+
+#2.0#2021 07 07 14:09:30.900#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8369###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [FATAL] Deployment of WFComplaint.workflow failed , Error Details: while trying to invoke the method org.springframework.http.ResponseEntity.getStatusCode() of a null object loaded from local variable 'response'#
+
+#2.0#2021 07 07 14:09:40.969#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7778###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [INFO] Deployment of file Id ed869faa-df2c-11eb-9af2-95d868fb09da started#
+
+#2.0#2021 07 07 14:09:40.973#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7778###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [FATAL] Deployment of file Id ed869faa-df2c-11eb-9af2-95d868fb09da  Failed, Error details: while trying to invoke the method com.sap.bpm.wds.core.model.WorkflowModuleContent.getSubcontents() of a null object loaded from local variable 'obj'#
+
+#2.0#2021 07 07 14:09:51.121#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7232###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [INFO] Deployment of file Id ed869faa-df2c-11eb-9af2-95d868fb09da started#
+
+#2.0#2021 07 07 14:09:51.125#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-7232###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [FATAL] Deployment of file Id ed869faa-df2c-11eb-9af2-95d868fb09da  Failed, Error details: while trying to invoke the method com.sap.bpm.wds.core.model.WorkflowModuleContent.getSubcontents() of a null object loaded from local variable 'obj'#
+
+#2.0#2021 07 07 14:10:02.845#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8483###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [INFO] Deployment of file Id ed869faa-df2c-11eb-9af2-95d868fb09da started#
+
+#2.0#2021 07 07 14:10:02.847#Z#DEBUG#com.sap.cloud.lm.sl.xs2.cae4a8ab-df2c-11eb-ab6e-eeee0a8dd72d.cf_com_sap_bmi_scp_apps_process_wf_cf_com_sap_bmi_scp_apps_wf.startContentDeployTask#
+######org.cloudfoundry.multiapps.controller.persistence.services.ProcessLogger########flowable-async-job-executor-thread-8483###
+[PollDeployContentStatusExecution] [cf_com_sap_bmi_scp_apps_process_wf] [FATAL] Deployment of file Id ed869faa-df2c-11eb-9af2-95d868fb09da  Failed, Error details: while trying to invoke the method com.sap.bpm.wds.core.model.WorkflowModuleContent.getSubcontents() of a null object loaded from local variable 'obj'#
+

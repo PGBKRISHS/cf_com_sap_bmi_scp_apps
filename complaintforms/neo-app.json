@@ -26,7 +26,15 @@
 				"entryPath": "/workflow-service"
 			},
 			"description": "TCM Provider"
-		}
-	],
+        },
+        {
+   "path": "/sap/opu/odata",
+   "target": {
+     "type": "destination",
+     "name": "BPMRule_CF",
+     "entryPath": "/sap/opu/odata"
+   },
+   "description": "backend destination for rules access "
+ }],
 	"sendWelcomeFileRedirect": true
 }

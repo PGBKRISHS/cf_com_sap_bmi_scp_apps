@@ -1,12 +1,14 @@
-
 var date = new Date();
 if ($.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_ImmediateSettlement_Header_KUT == "")
 {$.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.Z_ImmediateSettlement_Header_KUT =  "2";}
 $.context.CurrentStatus = "To be approved ";
+
+$.context.substitutionpath = "/v1/Audit_Log/Instances?$format=json&$filter=DateFrom le '1627436800000' and DateTo ge '1627436800000' and IsEnabled eq true and type eq 'substitution-rule' and action ne 'delete'";
 $.context.WFInstanceID = $.info.workflowInstanceId;
- $.context.LastUpdated =  date;
+$.context.LastUpdated =  date;
 $.context.ApprovalLevel = "1";
 $.context.ApprovalLevel1 = "0";
+// $.context.substitutionresponse = $.context.sub.d;
 var ccmplaintIf = 	{"RuleServiceId": "762e153d711242ffaeccc322f0b347f8",
 	"Vocabulary": [{
 			"complaintIf": {
@@ -28,7 +30,7 @@ var Button = {"RuleServiceId": "a0fb2653048e4ed7acf5b33efd39666c",
 	}]};
 $.context.ButtonIf = Button;
 $.context.ComplaintId = "Customer Complaint: " + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID;
-$.context.Complainturl = "https://my352303.crm.ondemand.com/sap/public/byd/runtime?bo_ns=http://sap.com/thingTypes&bo=COD_GENERIC&node=Root&operation=OnExtInspect&param.InternalID=" + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID + "&param.Type=COD_SRQ_AGENT_TT&sapbyd-agent=TAB"
+$.context.Complainturl = "https://my349294-sso.crm.ondemand.com/sap/public/byd/runtime?bo_ns=http://sap.com/thingTypes&bo=COD_GENERIC&node=Root&operation=OnExtInspect&param.InternalID=" + $.context.Messages.Message1.ServiceRequestCollection.ServiceRequest.ID + "&param.Type=COD_SRQ_AGENT_TT&sapbyd-agent=TAB"
 
 var emptyBlock;
 var foc = [];
